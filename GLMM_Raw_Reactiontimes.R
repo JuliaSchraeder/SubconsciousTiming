@@ -50,8 +50,6 @@ model2 <- glmer(rt ~  stim + level + response
                data = data,
                family = "poisson") 
 
-anova(model1,model2)
-
 model3 <- glmer(rt ~  stim + level + response 
                 + stim:response 
                 + (1|subj_idx),
