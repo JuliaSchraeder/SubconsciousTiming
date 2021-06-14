@@ -9,7 +9,7 @@ library(readxl) # to import dataset
 library(ggplot2) # graphics
 
 #Load in dataset
-data<- read_excel("C:/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/data_Fragebögen/Auswertung_Pilotstudie_Neu_Short.xlsx")
+data<- read_excel("")
 View(data)
 data$TMT <- (data$TMT_A+data$TMT_B)/2
 par(mfrow=c(2, 2))
@@ -108,7 +108,7 @@ ppcomp(list(fit.weibull,fit.gamma,fit.normal,fit.lnorm))
 
 
 ###########################################################
-data<- read_excel("C:/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/data_Fragebögen/Auswertung_Pilotstudie_Neu_Short.xlsx")
+data<- read_excel("C:/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/data_FragebÃ¶gen/Auswertung_Pilotstudie_Neu_Short.xlsx")
 data$TMT <- (data$TMT_A+data$TMT_B)/2
 
 # Define variables
@@ -153,22 +153,3 @@ summary(Model3)
 anova(Model3)
 Model3
 print(Model3, corr=F)
-
-
-################# RT #####################
-Model1_rt <- glmer (mean_reaction_time ~ TMT * BDI * BVAQ * 
-                   (1|SERIAL),
-                 data=data,
-                 family = Gamma(link = "inverse"))
-
-Model2_rt <- glmer (mean_reaction_time ~ TMT * BDI * BVAQ * Sex +
-                   (1|SERIAL) ,
-                 data=data,
-                 family = Gamma(link = "inverse"))
-
-Model3_rt <- glmer (mean_reaction_time ~ TMT + BDI + BVAQ + Sex +
-                   (1|SERIAL),
-                 data=data,
-                 family = Gamma(link = "inverse"))
-anova(Model1_rt,Model2_rt,Model3_rt)
-summary(Model3_rt)
