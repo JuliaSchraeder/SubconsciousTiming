@@ -19,10 +19,8 @@ library(agridat) # v1.16
 library(MCMCglmm) # v2.26
 
 #Load in dataset
-data <- read.csv("/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/GLMM/hddm_data.csv", sep=",")
-#data <- read.csv("/Users/julia/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/GLMM/hddm_data.csv", sep=",")
+data <- read.csv()
 
-View(data)
 
 #Remove missing values and additional column
 data$X <- NULL
