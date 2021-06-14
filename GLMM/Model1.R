@@ -7,7 +7,7 @@ library(tidyverse) # needed for data manipulation.#needed to view data
 library(jtools)  # post hoc tests
 
 #Load in dataset
-data <- read.csv("/Users/juhoffmann/OneDrive - Uniklinik RWTH Aachen/Auswertung/Pilot2/GLMM/hddm_data.csv", sep=",")
+data <- read.csv()
 
 #Remove missing values and additional column
 data$X <- NULL
@@ -60,7 +60,5 @@ plot(Model_Block)
 interact_plot(Model_Block,pred=response, modx=stim, mod2=level)
 #Plot interaction 
 interact_plot(Model_Block,pred=response, modx=stim, mod2=block)
-
-
 
 print(Model, corr=F)
