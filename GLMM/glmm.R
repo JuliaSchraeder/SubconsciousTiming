@@ -7,7 +7,7 @@ library(tidyverse) # needed for data manipulation.#needed to view data
 library(jtools)  # post hoc tests
 
 #Load in dataset
-data <- read.csv("Path/GLMM_data.csv", sep=",")
+data <- read.csv("Path/GLMM_Model1_data.csv", sep=",")
 
 #Remove missing values and additional column
 data$X <- NULL
@@ -48,7 +48,7 @@ interact_plot(Model1,pred=response, modx=stim, mod2=level)
 
 ### Include Questionnaires ###
 #Load in dataset
-data<- read_excel("Path/Questionnaire_Results.xlsx")
+data<- read_excel("Path/GLMM_Model2_data.xlsx")
 View(data)
 data$TMT <- (data$TMT_A+data$TMT_B)/2
 
