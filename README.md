@@ -44,7 +44,7 @@ $ pip install kabuki
 $ pip install hddm
 
 ```
-For detailled instruction see [here](http://ski.clps.brown.edu/hddm_docs/)
+For detailled instruction for hddm see [here](http://ski.clps.brown.edu/hddm_docs/)
 
 
 
