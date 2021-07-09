@@ -12,7 +12,7 @@ On an 120Hz Screen, three drifferent timing options for unconscious presentation
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
-This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.6ms, 25ms, 141,7ms) and 12 further conditions. The paradigm was programmed with PsychoPy and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
+This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.6ms, 25ms, 141,7ms) and 12 further conditions. The paradigm was programmed with PsychoPy [[2]](#2) and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
 
 
 ![BackwardMask_Pilot Kopie](https://user-images.githubusercontent.com/54576554/125072227-9c8da700-e0ba-11eb-9e70-c1a72198a427.jpg)
@@ -43,14 +43,11 @@ For detailled instruction see [here](http://ski.clps.brown.edu/hddm_docs/)
 
 
 
-
-
-For more details, please see #[here](https://osf.io/bfrky/)
-
 ## References
 <a id="1">[1]</a> 
 Ebner, N. C., Riediger, M., & Lindenberger, U. (2010). FACES—A database of facial expressions in young, middle-aged, and older women and men: Development and validation. Behavior research methods, 42(1), 351-362
 
-
-
+<a id="2">[1]</a> 
+Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
+        PsychoPy2: Experiments in behavior made easy Behav Res 51: 195. 
 
