@@ -3,6 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Experimental design](#experimental-design)
+* [Folder descripion](#folder-description)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
@@ -17,6 +18,10 @@ This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulu
 
 ![BackwardMask_Pilot Kopie](https://user-images.githubusercontent.com/54576554/125072227-9c8da700-e0ba-11eb-9e70-c1a72198a427.jpg)
 
+## Foder description
+
+* `GLMM` includes script and dataset for glmm analysis
+* 
 
 ## Technologies
 Project is created with:
