@@ -26,7 +26,7 @@ Project is created with:
 *
 	
 ## Setup
-To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the 'paradigm' folder
+To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder
 it locally using hddm:
 
 ```
