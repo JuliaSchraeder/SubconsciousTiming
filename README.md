@@ -5,9 +5,9 @@ On an 120Hz Screen, three drifferent timing options for unconscious presentation
 
 ## References
 <a id="1">[1]</a> 
-Dijkstra, E. W. (1968). 
-Go to statement considered harmful. 
-Communications of the ACM, 11(3), 147-148.
+Ebner, N. C., Riediger, M., & Lindenberger, U. (2010). FACES—A database of facial expressions in young, middle-aged, and older women and men: Development and validation. Behavior research methods, 42(1), 351-362
+
+# Used Programs
 ## RStudio
 Version 1.4.1106
 
