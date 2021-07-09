@@ -26,13 +26,18 @@ Project is created with:
 *
 	
 ## Setup
-To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder
-it locally using hddm:
+To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder. 
+
+To run hddm analysis install it locally using Python:
 
 ```
-$ npm install
-$ npm start
+$ pip install pandas
+$ pip install pymc
+$ pip install kabuki
+$ pip install hddm
+
 ```
+For detailled instruction see [here](http://ski.clps.brown.edu/hddm_docs/)
 
 
 
