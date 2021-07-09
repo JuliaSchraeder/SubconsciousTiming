@@ -20,6 +20,7 @@ This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulu
 
 ## Technologies
 Project is created with:
+* PsychoPy3: Version v2020.2.4
 * RStudio: Version 1.4.1106
 *
 *
