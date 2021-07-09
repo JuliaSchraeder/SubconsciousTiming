@@ -1,7 +1,29 @@
 # Timing for unconscious stimulus presentation
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
 On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.6ms,25ms) and compared to a conscious presentation time of 141ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used. [[1]](#1).
+	
+## Technologies
+Project is created with:
+* RStudio: Version 1.4.1106
+*
+*
+	
+## Setup
+To run this project, install it locally using hddm:
+
+```
+$ npm install
+$ npm start
+```
+
+
 
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
 
@@ -18,11 +40,4 @@ Ebner, N. C., Riediger, M., & Lindenberger, U. (2010). FACES—A database of fac
 
 
 
-# Used Programs
-## RStudio
-Version 1.4.1106
-
-© 2009-2021 RStudio, PBC
-
-"Tiger Daylily" (2389bc24, 2021-02-11) for Windows
 
