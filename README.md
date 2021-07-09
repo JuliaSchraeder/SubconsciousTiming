@@ -8,7 +8,7 @@
 
 ## General info
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
-On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.6ms, 25ms) and compared to a conscious presentation time of 141ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used. [[1]](#1).
+On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.6ms, 25ms) and compared to a conscious presentation time of 141ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
@@ -47,7 +47,7 @@ For detailled instruction see [here](http://ski.clps.brown.edu/hddm_docs/)
 <a id="1">[1]</a> 
 Ebner, N. C., Riediger, M., & Lindenberger, U. (2010). FACES—A database of facial expressions in young, middle-aged, and older women and men: Development and validation. Behavior research methods, 42(1), 351-362
 
-<a id="2">[1]</a> 
+<a id="2">[2]</a> 
 Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
         PsychoPy2: Experiments in behavior made easy Behav Res 51: 195. 
 
