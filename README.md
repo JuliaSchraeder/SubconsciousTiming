@@ -33,9 +33,9 @@ Project is created with:
 	
 	
 ## Setup
-To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder. 
+* To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder. 
 
-To run hddm and statistical analysis install it locally using Python:
+* To run hddm and statistical analysis install it locally using Python:
 
 ```
 $ pip install pandas
@@ -46,7 +46,7 @@ $ pip install hddm
 ```
 For detailled instruction for hddm see [here](http://ski.clps.brown.edu/hddm_docs/)
 
-To run the glmm analysis install [R](https://www.rstudio.com/products/rstudio/download/)
+* To run the glmm analysis install [R](https://www.rstudio.com/products/rstudio/download/)
 
 
 
