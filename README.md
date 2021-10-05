@@ -16,7 +16,7 @@ The participants completed 360 trials in 3 block where one short timing conditio
 This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.6ms, 25ms, 141,7ms) and 12 further conditions. The paradigm was programmed with PsychoPy [[2]](#2) and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
 
 
-![BackwardMask_Pilot Kopie](https://user-images.githubusercontent.com/54576554/125072227-9c8da700-e0ba-11eb-9e70-c1a72198a427.jpg)
+![BackwardMask_Pilot](https://user-images.githubusercontent.com/54576554/125072227-9c8da700-e0ba-11eb-9e70-c1a72198a427.jpg)
 
 ## Folder description
 
