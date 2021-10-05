@@ -9,11 +9,11 @@
 
 ## General info
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
-On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.6ms, 25ms) and compared to a conscious presentation time of 141ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
+On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
-This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.6ms, 25ms, 141,7ms) and 12 further conditions. The paradigm was programmed with PsychoPy [[2]](#2) and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
+This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigm was programmed with PsychoPy [[2]](#2) and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
 
 
 ![BackwardMask_Pilot](https://user-images.githubusercontent.com/54576554/135982620-a7cf2ac1-5c64-48a1-8977-0c4d3405a3f2.jpg)
