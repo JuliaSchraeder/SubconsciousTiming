@@ -18,9 +18,9 @@ This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulu
 For both tasks, we used a backward mask paradigm which provides conscious and unconscious masked stimulus presentation. 
 A total of 36 images (12 happy, 12 neutral, 12 sad) served as emotional stimuli. Pictures were gender balanced and taken from the FACES database (Ebner, Riediger, & Lindenberger, 2010). Each image was presented 10 times against a grey background at the center of a LCD monitor (120Hz).
 At the beginning of each trial, a fixation cross appeared for 300ms (36 frames) followed by the stimulus. The mask stimulus appeared for 41.6ms (5 frames) followed by a response phase of maximal 1.5s. A blank screen served as an inter-stimulus-interval (ISI) ranging be-tween 1 and 2s. Participants complete 3 blocks of 120 trials in randomized order. 
-# Task one
+#### Task one
 For the strongly masked stimuli, the presentation time varied between blocks. The stimuli images were presented for 25ms (3 frames) in the first block, for 16.7ms (2 frames) in the second block and for 8.3ms (1 frame) in the third block. In each block, the number of strong-ly (8.3ms, 16.7ms or 25ms) and weakly masked trails (141.7ms) were counterbalanced.
-# Task two
+#### Task two
 Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presented in randomized order regardless of the block number. First, participants rated the stimulus emo-tion. Second, they were asked to rate how well the stimulus was visible (“seen”, “not seen”, “don’t know”).
 
 
