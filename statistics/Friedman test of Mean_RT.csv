@@ -1,0 +1,25 @@
+"Number of families",1,,,,,
+"Number of comparisons per family",9,,,,,
+Alpha,0.05,,,,,
+,,,,,,
+"Dunn's multiple comparisons test","Rank sum diff.",Significant?,Summary,"Adjusted P Value",,
+"  happy vs. sad",-125.0,Yes,****,<0.0001,E-F,
+"  happy vs. neutral",-50.00,No,ns,0.0869,E-G,
+"  sad vs. neutral",75.00,Yes,***,0.0009,F-G,
+"  8ms vs. 16ms",-42.00,No,ns,0.2675,H-I,
+"  8ms vs. 25ms",-8.000,No,ns,>0.9999,H-J,
+"  8ms vs. 141ms",123.0,Yes,****,<0.0001,H-K,
+"  16ms vs. 25ms",34.00,No,ns,0.7062,I-J,
+"  16ms vs. 141ms",165.0,Yes,****,<0.0001,I-K,
+"  25ms vs. 141ms",131.0,Yes,****,<0.0001,J-K,
+,,,,,,
+"Test details","Rank sum 1","Rank sum 2","Rank sum diff.",n1,n2,Z
+"  happy vs. sad",86.00,211.0,-125.0,40,40,6.469
+"  happy vs. neutral",86.00,136.0,-50.00,40,40,2.588
+"  sad vs. neutral",211.0,136.0,75.00,40,40,3.882
+"  8ms vs. 16ms",190.0,232.0,-42.00,40,40,2.174
+"  8ms vs. 25ms",190.0,198.0,-8.000,40,40,0.4140
+"  8ms vs. 141ms",190.0,67.00,123.0,40,40,6.366
+"  16ms vs. 25ms",232.0,198.0,34.00,40,40,1.760
+"  16ms vs. 141ms",232.0,67.00,165.0,40,40,8.540
+"  25ms vs. 141ms",198.0,67.00,131.0,40,40,6.780

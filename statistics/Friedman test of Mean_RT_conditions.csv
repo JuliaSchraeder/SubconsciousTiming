@@ -1,0 +1,13 @@
+"Table Analyzed",Mean_RT
+,
+"Friedman test",
+"  P value",<0.0001
+"  Exact or approximate P value?",Approximate
+"  P value summary",****
+"  Are means signif. different? (P < 0.05)",Yes
+"  Number of groups",12
+"  Friedman statistic",190.9
+,
+"Data summary",
+"  Number of treatments (columns)",12
+"  Number of subjects (rows)",40
