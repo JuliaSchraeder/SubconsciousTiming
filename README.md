@@ -30,10 +30,10 @@ Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presente
 
 ## Folder description
 
-* `GLMM` includes script and dataset for glmm analysis
-* `Statistics` includes scripts and results of descriptive statistics and comparison of mean accuracy and mean reaction time of all 20 participants within main effects and all conditions.
+* `glmm` includes script and dataset for glmm analysis
+* `statistics` includes scripts and results of descriptive statistics and comparison of mean accuracy and mean reaction time of all 40 participants within main effects and all conditions.
 * `hddm` includes script and dataset for hddm analysis as well as statistical results
-* `paradigm` includes the paradigm, stimuli and datasheets to run the backward mask task
+* `tasks` includes the paradigm, stimuli and datasheets to run the backward mask task
 
 ## Technologies
 Project is created with:
