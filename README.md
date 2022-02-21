@@ -29,7 +29,7 @@ Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presente
 
 
 ## Folder description
-
+* `data` includes mean performance accuracy, mean reaction time during emotion classification and mean rating of subjective awareness
 * `glmm` includes script and dataset for glmm analysis
 * `statistics` includes scripts and results of descriptive statistics and comparison of mean accuracy and mean reaction time of all 40 participants within main effects and all conditions.
 * `hddm` includes script and dataset for hddm analysis as well as statistical results
