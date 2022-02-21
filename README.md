@@ -13,10 +13,19 @@ On an 120Hz Screen, three drifferent timing options for unconscious presentation
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
-This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigm was programmed with PsychoPy [[2]](#2) and can be found on this respiratory `Backward_Mask_Paradigm.py` in the `paradigm`folder.
+This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigms were programmed with PsychoPy [[2]](#2) and can be found on this respiratory in the `tasks`folder.
+
+For both tasks, we used a backward mask paradigm which provides conscious and unconscious masked stimulus presentation. 
+A total of 36 images (12 happy, 12 neutral, 12 sad) served as emotional stimuli. Pictures were gender balanced and taken from the FACES database (Ebner, Riediger, & Lindenberger, 2010). Each image was presented 10 times against a grey background at the center of a LCD monitor (120Hz).
+At the beginning of each trial, a fixation cross appeared for 300ms (36 frames) followed by the stimulus. The mask stimulus appeared for 41.6ms (5 frames) followed by a response phase of maximal 1.5s. A blank screen served as an inter-stimulus-interval (ISI) ranging be-tween 1 and 2s. Participants complete 3 blocks of 120 trials in randomized order. 
+# Task one
+For the strongly masked stimuli, the presentation time varied between blocks. The stimuli images were presented for 25ms (3 frames) in the first block, for 16.7ms (2 frames) in the second block and for 8.3ms (1 frame) in the third block. In each block, the number of strong-ly (8.3ms, 16.7ms or 25ms) and weakly masked trails (141.7ms) were counterbalanced.
+# Task two
+Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presented in randomized order regardless of the block number. First, participants rated the stimulus emo-tion. Second, they were asked to rate how well the stimulus was visible (“seen”, “not seen”, “don’t know”).
 
 
-![BackwardMask_Pilot](https://user-images.githubusercontent.com/54576554/135982620-a7cf2ac1-5c64-48a1-8977-0c4d3405a3f2.jpg)
+
+![Tasks](https://user-images.githubusercontent.com/54576554/154940756-04f9febb-1462-4f9c-8d7a-66edc9d8bb3c.png)
 
 
 ## Folder description
@@ -34,7 +43,7 @@ Project is created with:
 	
 	
 ## Setup
-* To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `paradigm` folder. 
+* To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `tasks` folder. 
 
 * To run hddm and statistical analysis install it locally using Python:
 
