@@ -34,6 +34,7 @@ Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presente
 * `statistics` includes scripts and results of descriptive statistics and comparison of mean accuracy and mean reaction time of all 40 participants within main effects and all conditions.
 * `hddm` includes script and dataset for hddm analysis as well as statistical results
 * `tasks` includes the paradigm, stimuli and datasheets to run the backward mask task
+* `supplements` includes supplement information, e.g. glmm for Bias and Drift-Rates with BDI and BVAQ Score effects
 
 ## Technologies
 Project is created with:
