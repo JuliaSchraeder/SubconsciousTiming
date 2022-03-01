@@ -21,7 +21,7 @@ At the beginning of each trial, a fixation cross appeared for 300ms (36 frames) 
 #### Task one
 For the strongly masked stimuli, the presentation time varied between blocks. The stimuli images were presented for 25ms (3 frames) in the first block, for 16.7ms (2 frames) in the second block and for 8.3ms (1 frame) in the third block. In each block, the number of strong-ly (8.3ms, 16.7ms or 25ms) and weakly masked trails (141.7ms) were counterbalanced.
 #### Task two
-Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (141ms) were presented in randomized order regardless of the block number. First, participants rated the stimulus emo-tion. Second, they were asked to rate how well the stimulus was visible (“seen”, “not seen”, “don’t know”).
+Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (150ms) were presented in randomized order regardless of the block number. First, participants rated the stimulus emo-tion. Second, they were asked to rate how well the stimulus was visible (“seen”, “not seen”, “don’t know”).
 
 
 
