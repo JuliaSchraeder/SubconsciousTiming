@@ -42,6 +42,7 @@ Project is created with:
 * PsychoPy3: Version v2020.2.4
 * RStudio: Version 1.4.1106
 * Python 3
+* GraphPad Prism 9.1.1 (225)
 	
 	
 ## Setup
