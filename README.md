@@ -25,7 +25,8 @@ Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (150ms) were presente
 
 
 
-![Tasks](https://user-images.githubusercontent.com/54576554/154940756-04f9febb-1462-4f9c-8d7a-66edc9d8bb3c.png)
+![Task](https://user-images.githubusercontent.com/54576554/177995788-00923aa0-545a-4e0b-9080-ffa46b8f249d.png)
+
 
 
 ## Folder description
