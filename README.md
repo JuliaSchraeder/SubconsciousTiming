@@ -2,9 +2,9 @@
 
 ## Table of contents
 * [General info](#general-info)
-** [Authors](#authors) 
-** [Publication](#preprint-DOI)
-** [Licese](#license)
+	* * [Authors](#authors) 
+	* * [Publication](#preprint-DOI)
+	* * [Licese](#license)
 * [Experimental design](#experimental-design)
 * [Folder descripion](#folder-description)
 * [Technologies](#technologies)
