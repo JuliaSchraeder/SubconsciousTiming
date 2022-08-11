@@ -11,6 +11,8 @@
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
 On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
 
+You can find a pre-print version of our article [here] https://psyarxiv.com/mscz5/ 
+
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
 This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigms were programmed with PsychoPy [[2]](#2) and can be found on this respiratory in the `tasks`folder.
