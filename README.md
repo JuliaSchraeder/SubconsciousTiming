@@ -4,7 +4,7 @@
 * [General info](#general-info)
 	* [Authors](#authors) 
 	* [Publication](#preprint-DOI)
-	* [Licese](#license)
+	* [License](#license)
 * [Experimental design](#experimental-design)
 * [Folder descripion](#folder-description)
 * [Technologies](#technologies)
