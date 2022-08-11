@@ -2,6 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
+* * [Authors]
 * [Experimental design](#experimental-design)
 * [Folder descripion](#folder-description)
 * [Technologies](#technologies)
@@ -11,7 +12,7 @@
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
 On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
 
-### AUTHORS
+#### AUTHORS
 Julia Schräder Ute Habel Han-Gue Jo Franziska Walter Lisa Wagels
 
 
