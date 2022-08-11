@@ -2,9 +2,9 @@
 
 ## Table of contents
 * [General info](#general-info)
-	* * [Authors](#authors) 
-	* * [Publication](#preprint-DOI)
-	* * [Licese](#license)
+	* [Authors](#authors) 
+	* [Publication](#preprint-DOI)
+	* [Licese](#license)
 * [Experimental design](#experimental-design)
 * [Folder descripion](#folder-description)
 * [Technologies](#technologies)
@@ -18,11 +18,11 @@ On an 120Hz Screen, three drifferent timing options for unconscious presentation
 Julia Schräder Ute Habel Han-Gue Jo Franziska Walter Lisa Wagels
 
 
-### Preprint DOI
+#### Preprint DOI
 
 10.31234/osf.io/mscz5
 
-### License
+#### License
 
 CC-By Attribution 4.0 International 
 
