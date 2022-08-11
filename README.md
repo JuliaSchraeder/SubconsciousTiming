@@ -11,7 +11,17 @@
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
 On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
 
-You can find a pre-print version of our article [here] https://psyarxiv.com/mscz5/ 
+### AUTHORS
+Julia Schräder Ute Habel Han-Gue Jo Franziska Walter Lisa Wagels
+
+
+### Preprint DOI
+
+10.31234/osf.io/mscz5
+
+### License
+
+CC-By Attribution 4.0 International 
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
