@@ -1,4 +1,4 @@
-# Timing for unconscious stimulus presentation
+# Timing evaluation for unconscious stimulus presentation
 
 ## Table of contents
 * [General info](#general-info)
