@@ -38,12 +38,7 @@ For the strongly masked stimuli, the presentation time varied between blocks. Th
 #### Task two
 Strongly (8.3ms, 16.7ms or 25ms) and weakly masked stimuli (150ms) were presented in randomized order regardless of the block number. First, participants rated the stimulus emo-tion. Second, they were asked to rate how well the stimulus was visible (“seen”, “not seen”, “don’t know”).
 
-
-
-![Task]![Pilot_1+2](https://user-images.githubusercontent.com/54576554/204008729-5d3d16d1-6b93-4a4b-96ca-2b17e66a0614.png)
-
-
-
+![Pilot_1+2](https://user-images.githubusercontent.com/54576554/204008729-5d3d16d1-6b93-4a4b-96ca-2b17e66a0614.png)
 
 ## Folder description
 * `data` includes mean performance accuracy, mean reaction time during emotion classification and mean rating of subjective awareness. Mean accuracy and mean reaction time was additionally uploaded for each task
