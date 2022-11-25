@@ -16,9 +16,10 @@ On an 120Hz Screen, three drifferent timing options for unconscious presentation
 
 #### AUTHORS
 Julia Schräder 1,2 Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagels 1,2
-1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany
-2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany
-3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea
+
+ <sub><sup>1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany</sup></sub>
+ <sub><sup>2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany</sup></sub>
+ <sub><sup>3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea</sup></sub>
 
 
 
