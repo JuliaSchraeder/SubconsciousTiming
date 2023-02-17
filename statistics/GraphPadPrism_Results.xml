@@ -1,0 +1,6942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="#"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:dt="urn:schemas-microsoft-com:datatypes" xmlns:ps="http://graphpad.com/prism/Prism.htm" version="1.0">
+	<!--
+	XML style sheet template for formatting data and info tables from GraphPad Prism 8.0.
+	Copyright 1992-2022 GraphPad Software, LLC
+-->
+	<xsl:output method="html" version="4.0" omit-xml-declaration="yes"/>
+	<GraphPadPrismFile xmlns="http://graphpad.com/prism/Prism.htm" PrismXMLVersion="5.00">
+<Created>
+<OriginalVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="9.4.1.681" Login="jschraeder" DateTime="2023-02-17T15:59:36+01:00"/>
+</Created>
+<InfoSequence>
+</InfoSequence>
+<Table ID="Table1" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Descriptive statistics of Mean_Accuracy</Title>
+<RowTitlesColumn Width="110">
+<Subcolumn>
+<d>Number of values</d>
+<d/>
+<d>Minimum</d>
+<d>Maximum</d>
+<d>Range</d>
+<d/>
+<d>Mean</d>
+<d>Std. Deviation</d>
+<d>Std. Error of Mean</d>
+<d/>
+<d>Skewness</d>
+<d>Kurtosis</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>200.0</d>
+<d>358.0</d>
+<d>158.0</d>
+<d/>
+<d>286.4</d>
+<d>53.58</d>
+<d>8.472</d>
+<d/>
+<d>0.02964</d>
+<d>-1.632</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>168.0</d>
+<d>302.0</d>
+<d>134.0</d>
+<d/>
+<d>233.5</d>
+<d>37.07</d>
+<d>5.862</d>
+<d/>
+<d>0.05066</d>
+<d>-1.006</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>65.28</d>
+<d>92.70</d>
+<d>27.42</d>
+<d/>
+<d>82.15</d>
+<d>6.026</d>
+<d>0.9528</d>
+<d/>
+<d>-0.5949</d>
+<d>0.5233</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>67.83</d>
+<d>100.0</d>
+<d>32.17</d>
+<d/>
+<d>91.38</d>
+<d>7.947</d>
+<d>1.256</d>
+<d/>
+<d>-1.364</d>
+<d>1.215</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>43.66</d>
+<d>96.00</d>
+<d>52.34</d>
+<d/>
+<d>63.66</d>
+<d>11.37</d>
+<d>1.797</d>
+<d/>
+<d>0.5580</d>
+<d>0.4297</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>54.55</d>
+<d>100.0</d>
+<d>45.45</d>
+<d/>
+<d>89.90</d>
+<d>8.654</d>
+<d>1.368</d>
+<d/>
+<d>-1.758</d>
+<d>5.726</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>36.76</d>
+<d>31.23</d>
+<d>4.938</d>
+<d/>
+<d>0.5148</d>
+<d>-0.3800</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>35.29</d>
+<d>93.85</d>
+<d>58.55</d>
+<d/>
+<d>70.57</d>
+<d>12.46</d>
+<d>1.970</d>
+<d/>
+<d>-0.6793</d>
+<d>0.2260</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>62.71</d>
+<d>93.88</d>
+<d>31.17</d>
+<d/>
+<d>82.26</d>
+<d>7.748</d>
+<d>1.225</d>
+<d/>
+<d>-0.7080</d>
+<d>0.08304</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>84.15</d>
+<d>100.0</d>
+<d>15.85</d>
+<d/>
+<d>93.95</d>
+<d>3.647</d>
+<d>0.5767</d>
+<d/>
+<d>-0.6834</d>
+<d>0.2142</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>37.54</d>
+<d>37.92</d>
+<d>5.996</d>
+<d/>
+<d>0.5458</d>
+<d>-1.252</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>11.27</d>
+<d>23.99</d>
+<d>3.794</d>
+<d/>
+<d>2.865</d>
+<d>8.266</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>43.90</d>
+<d>40.62</d>
+<d>6.423</d>
+<d/>
+<d>0.1292</d>
+<d>-1.629</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>12.50</d>
+<d>100.0</d>
+<d>87.50</d>
+<d/>
+<d>86.77</d>
+<d>20.35</d>
+<d>3.217</d>
+<d/>
+<d>-2.271</d>
+<d>5.134</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>82.35</d>
+<d>82.35</d>
+<d/>
+<d>25.89</d>
+<d>21.70</d>
+<d>3.432</d>
+<d/>
+<d>1.130</d>
+<d>0.8809</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>45.00</d>
+<d>100.0</d>
+<d>55.00</d>
+<d/>
+<d>84.66</d>
+<d>14.41</d>
+<d>2.279</d>
+<d/>
+<d>-0.8713</d>
+<d>-0.09399</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>84.21</d>
+<d>100.0</d>
+<d>15.79</d>
+<d/>
+<d>96.63</d>
+<d>4.817</d>
+<d>0.7617</d>
+<d/>
+<d>-1.348</d>
+<d>0.8180</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>12.50</d>
+<d>94.74</d>
+<d>82.24</d>
+<d/>
+<d>56.12</d>
+<d>20.29</d>
+<d>3.208</d>
+<d/>
+<d>-0.2616</d>
+<d>-0.5263</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>51.72</d>
+<d>100.0</d>
+<d>48.28</d>
+<d/>
+<d>90.46</d>
+<d>11.77</d>
+<d>1.862</d>
+<d/>
+<d>-1.480</d>
+<d>1.936</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>87.50</d>
+<d>100.0</d>
+<d>12.50</d>
+<d/>
+<d>98.79</d>
+<d>2.364</d>
+<d>0.3738</d>
+<d/>
+<d>-3.171</d>
+<d>12.86</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>63.64</d>
+<d>100.0</d>
+<d>36.36</d>
+<d/>
+<d>88.94</d>
+<d>8.374</d>
+<d>1.324</d>
+<d/>
+<d>-0.8366</d>
+<d>0.7310</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>64.29</d>
+<d>100.0</d>
+<d>35.71</d>
+<d/>
+<d>94.95</d>
+<d>7.470</d>
+<d>1.181</d>
+<d/>
+<d>-2.555</d>
+<d>7.568</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>study_number</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>1.000</d>
+<d>2.000</d>
+<d>1.000</d>
+<d/>
+<d>1.500</d>
+<d>0.5064</d>
+<d>0.08006</d>
+<d/>
+<d>0.000</d>
+<d>-2.108</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table2" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Normality and Lognormality Tests of Mean_Accuracy</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Test for normal distribution</d>
+<d>  D'Agostino &amp; Pearson test</d>
+<d>    K2</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>  Shapiro-Wilk test</d>
+<d>    W</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>  Kolmogorov-Smirnov test</d>
+<d>    KS distance</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>Number of values</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>39.34</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.8826</d>
+<d>0.0006</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.1674</d>
+<d>0.0064</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>4.348</d>
+<d>0.1137</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9679</d>
+<d>0.3075</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09162</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.367</d>
+<d>0.1857</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9611</d>
+<d>0.1825</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1360</d>
+<d>0.0601</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>12.72</d>
+<d>0.0017</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.8417</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2166</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>2.906</d>
+<d>0.2338</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9714</d>
+<d>0.3969</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.08456</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>26.92</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.8379</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.1311</d>
+<d>0.0812</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>2.147</d>
+<d>0.3419</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.8860</d>
+<d>0.0008</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.1804</d>
+<d>0.0021</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.569</d>
+<d>0.1679</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9533</d>
+<d>0.0987</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1448</d>
+<d>0.0342</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.652</d>
+<d>0.1611</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9466</d>
+<d>0.0581</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1222</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.589</d>
+<d>0.1662</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9627</d>
+<d>0.2065</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09945</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>12.22</d>
+<d>0.0022</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.8356</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2032</d>
+<d>0.0002</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>42.94</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.5328</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3291</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>38.98</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.8224</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2601</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>31.66</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.6832</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2578</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>9.331</d>
+<d>0.0094</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.8927</d>
+<d>0.0012</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.1346</d>
+<d>0.0654</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>5.079</d>
+<d>0.0789</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.8853</d>
+<d>0.0007</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.1858</d>
+<d>0.0013</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>11.61</d>
+<d>0.0030</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.7310</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3331</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>1.055</d>
+<d>0.5900</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9760</d>
+<d>0.5451</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09348</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>15.82</d>
+<d>0.0004</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.8047</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2089</d>
+<d>0.0001</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>51.26</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.5720</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3455</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>5.949</d>
+<d>0.0511</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9400</d>
+<d>0.0347</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.1098</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>38.70</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.6872</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2600</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table3" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="95" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>7</d>
+<d>167.1</d>
+<d/>
+<d/>
+<d>7</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table4" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+<d/>
+<d>Test details</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>9</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>143.5</d>
+<d>19.50</d>
+<d>-124.0</d>
+<d>-41.00</d>
+<d>-94.50</d>
+<d>-175.0</d>
+<d>-53.50</d>
+<d>-134.0</d>
+<d>-80.50</d>
+<d/>
+<d>Rank sum 1</d>
+<d>233.5</d>
+<d>233.5</d>
+<d>90.00</d>
+<d>68.00</d>
+<d>68.00</d>
+<d>68.00</d>
+<d>109.0</d>
+<d>109.0</d>
+<d>162.5</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d/>
+<d>Rank sum 2</d>
+<d>90.00</d>
+<d>214.0</d>
+<d>214.0</d>
+<d>109.0</d>
+<d>162.5</d>
+<d>243.0</d>
+<d>162.5</d>
+<d>243.0</d>
+<d>243.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>***</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>143.5</d>
+<d>19.50</d>
+<d>-124.0</d>
+<d>-41.00</d>
+<d>-94.50</d>
+<d>-175.0</d>
+<d>-53.50</d>
+<d>-134.0</d>
+<d>-80.50</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.3046</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>0.0506</d>
+<d>&lt;0.0001</d>
+<d>0.0003</d>
+<d/>
+<d>n1</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>E-F</d>
+<d>E-G</d>
+<d>F-G</d>
+<d>H-I</d>
+<d>H-J</d>
+<d>H-K</d>
+<d>I-J</d>
+<d>I-K</d>
+<d>J-K</d>
+<d/>
+<d>n2</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>7.427</d>
+<d>1.009</d>
+<d>6.418</d>
+<d>2.122</d>
+<d>4.891</d>
+<d>9.057</d>
+<d>2.769</d>
+<d>6.935</d>
+<d>4.166</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table5" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="95" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>12</d>
+<d>264.3</d>
+<d/>
+<d/>
+<d>12</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table6" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="218">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+<d/>
+<d>Test details</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>12</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>83.50</d>
+<d>-22.00</d>
+<d>-105.5</d>
+<d>209.0</d>
+<d>45.00</d>
+<d>-164.0</d>
+<d>206.5</d>
+<d>59.00</d>
+<d>-147.5</d>
+<d>102.5</d>
+<d>51.50</d>
+<d>-51.00</d>
+<d/>
+<d>Rank sum 1</d>
+<d>165.5</d>
+<d>165.5</d>
+<d>82.00</d>
+<d>321.0</d>
+<d>321.0</d>
+<d>112.0</d>
+<d>389.5</d>
+<d>389.5</d>
+<d>183.0</d>
+<d>409.0</d>
+<d>409.0</d>
+<d>306.5</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>82.00</d>
+<d>187.5</d>
+<d>187.5</d>
+<d>112.0</d>
+<d>276.0</d>
+<d>276.0</d>
+<d>183.0</d>
+<d>330.5</d>
+<d>330.5</d>
+<d>306.5</d>
+<d>357.5</d>
+<d>357.5</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>ns</d>
+<d>ns</d>
+<d>*</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>*</d>
+<d>ns</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>83.50</d>
+<d>-22.00</d>
+<d>-105.5</d>
+<d>209.0</d>
+<d>45.00</d>
+<d>-164.0</d>
+<d>206.5</d>
+<d>59.00</d>
+<d>-147.5</d>
+<d>102.5</d>
+<d>51.50</d>
+<d>-51.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>0.1154</d>
+<d>&gt;0.9999</d>
+<d>0.0128</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>0.8079</d>
+<d>&lt;0.0001</d>
+<d>0.0178</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d/>
+<d>n1</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>L-M</d>
+<d>L-N</d>
+<d>M-N</d>
+<d>O-P</d>
+<d>O-Q</d>
+<d>P-Q</d>
+<d>R-S</d>
+<d>R-T</d>
+<d>S-T</d>
+<d>U-V</d>
+<d>U-W</d>
+<d>V-W</d>
+<d/>
+<d>n2</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>2.589</d>
+<d>0.6822</d>
+<d>3.271</d>
+<d>6.481</d>
+<d>1.395</d>
+<d>5.085</d>
+<d>6.403</d>
+<d>1.830</d>
+<d>4.574</d>
+<d>3.178</d>
+<d>1.597</d>
+<d>1.581</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table8" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Descriptive statistics of Mean_RT</Title>
+<RowTitlesColumn Width="110">
+<Subcolumn>
+<d>Number of values</d>
+<d/>
+<d>Minimum</d>
+<d>Maximum</d>
+<d>Range</d>
+<d/>
+<d>Mean</d>
+<d>Std. Deviation</d>
+<d>Std. Error of Mean</d>
+<d/>
+<d>Skewness</d>
+<d>Kurtosis</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>200.0</d>
+<d>358.0</d>
+<d>158.0</d>
+<d/>
+<d>286.4</d>
+<d>53.58</d>
+<d>8.472</d>
+<d/>
+<d>0.02964</d>
+<d>-1.632</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>168.0</d>
+<d>302.0</d>
+<d>134.0</d>
+<d/>
+<d>233.5</d>
+<d>37.07</d>
+<d>5.862</d>
+<d/>
+<d>0.05066</d>
+<d>-1.006</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5456</d>
+<d>1.033</d>
+<d>0.4870</d>
+<d/>
+<d>0.7155</d>
+<d>0.1208</d>
+<d>0.01910</d>
+<d/>
+<d>0.6289</d>
+<d>-0.5201</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.4855</d>
+<d>1.037</d>
+<d>0.5519</d>
+<d/>
+<d>0.6502</d>
+<d>0.1296</d>
+<d>0.02050</d>
+<d/>
+<d>0.9657</d>
+<d>0.3487</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5859</d>
+<d>1.105</d>
+<d>0.5189</d>
+<d/>
+<d>0.7873</d>
+<d>0.1250</d>
+<d>0.01977</d>
+<d/>
+<d>0.5185</d>
+<d>-0.4456</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5324</d>
+<d>0.9687</d>
+<d>0.4362</d>
+<d/>
+<d>0.7171</d>
+<d>0.1259</d>
+<d>0.01991</d>
+<d/>
+<d>0.3527</d>
+<d>-1.082</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>1.458</d>
+<d>1.458</d>
+<d/>
+<d>0.7248</d>
+<d>0.3909</d>
+<d>0.06181</d>
+<d/>
+<d>-0.7978</d>
+<d>-0.1378</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.6254</d>
+<d>1.072</d>
+<d>0.4461</d>
+<d/>
+<d>0.8107</d>
+<d>0.1178</d>
+<d>0.01863</d>
+<d/>
+<d>0.2958</d>
+<d>-0.8991</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.6039</d>
+<d>1.022</d>
+<d>0.4185</d>
+<d/>
+<d>0.7842</d>
+<d>0.1109</d>
+<d>0.01754</d>
+<d/>
+<d>0.3155</d>
+<d>-0.7718</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.4641</d>
+<d>1.048</d>
+<d>0.5838</d>
+<d/>
+<d>0.6254</d>
+<d>0.1337</d>
+<d>0.02115</d>
+<d/>
+<d>1.072</d>
+<d>0.9565</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>1.236</d>
+<d>1.236</d>
+<d/>
+<d>0.6098</d>
+<d>0.4104</d>
+<d>0.06490</d>
+<d/>
+<d>-0.5756</d>
+<d>-1.155</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>1.276</d>
+<d>1.276</d>
+<d/>
+<d>0.5986</d>
+<d>0.4358</d>
+<d>0.06890</d>
+<d/>
+<d>-0.3676</d>
+<d>-1.343</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.000</d>
+<d>1.458</d>
+<d>1.458</d>
+<d/>
+<d>0.5662</d>
+<d>0.4595</d>
+<d>0.07265</d>
+<d/>
+<d>-0.1386</d>
+<d>-1.413</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5360</d>
+<d>0.9834</d>
+<d>0.4475</d>
+<d/>
+<d>0.7464</d>
+<d>0.1129</d>
+<d>0.01786</d>
+<d/>
+<d>0.6527</d>
+<d>-0.3795</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.6427</d>
+<d>1.145</d>
+<d>0.5025</d>
+<d/>
+<d>0.8700</d>
+<d>0.1381</d>
+<d>0.02184</d>
+<d/>
+<d>0.2239</d>
+<d>-0.9959</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.6028</d>
+<d>1.129</d>
+<d>0.5265</d>
+<d/>
+<d>0.8472</d>
+<d>0.1513</d>
+<d>0.02392</d>
+<d/>
+<d>0.09172</d>
+<d>-1.182</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5191</d>
+<d>0.9888</d>
+<d>0.4696</d>
+<d/>
+<d>0.6938</d>
+<d>0.1361</d>
+<d>0.02152</d>
+<d/>
+<d>0.5666</d>
+<d>-0.7396</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.6866</d>
+<d>1.141</d>
+<d>0.4545</d>
+<d/>
+<d>0.9002</d>
+<d>0.1189</d>
+<d>0.01880</d>
+<d/>
+<d>0.02214</d>
+<d>-0.9746</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5898</d>
+<d>1.115</d>
+<d>0.5253</d>
+<d/>
+<d>0.7818</d>
+<d>0.1248</d>
+<d>0.01974</d>
+<d/>
+<d>0.6166</d>
+<d>0.01532</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.3871</d>
+<d>1.167</d>
+<d>0.7798</d>
+<d/>
+<d>0.5444</d>
+<d>0.1585</d>
+<d>0.02506</d>
+<d/>
+<d>1.784</d>
+<d>4.668</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.5237</d>
+<d>1.086</d>
+<d>0.5624</d>
+<d/>
+<d>0.7056</d>
+<d>0.1330</d>
+<d>0.02102</d>
+<d/>
+<d>0.9748</d>
+<d>0.5255</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>0.4194</d>
+<d>0.9072</d>
+<d>0.4878</d>
+<d/>
+<d>0.6132</d>
+<d>0.1357</d>
+<d>0.02146</d>
+<d/>
+<d>0.4730</d>
+<d>-0.8333</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>study_number</Title>
+<Subcolumn>
+<d>40</d>
+<d/>
+<d>1.000</d>
+<d>2.000</d>
+<d>1.000</d>
+<d/>
+<d>1.500</d>
+<d>0.5064</d>
+<d>0.08006</d>
+<d/>
+<d>0.000</d>
+<d>-2.108</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table9" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Normality and Lognormality Tests of Mean_RT</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Test for normal distribution</d>
+<d>  D'Agostino &amp; Pearson test</d>
+<d>    K2</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>  Shapiro-Wilk test</d>
+<d>    W</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>  Kolmogorov-Smirnov test</d>
+<d>    KS distance</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>Number of values</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>39.34</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.8826</d>
+<d>0.0006</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.1674</d>
+<d>0.0064</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>4.348</d>
+<d>0.1137</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9679</d>
+<d>0.3075</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09162</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.354</d>
+<d>0.1869</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9213</d>
+<d>0.0085</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.1801</d>
+<d>0.0022</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>6.505</d>
+<d>0.0387</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.8877</d>
+<d>0.0009</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.2053</d>
+<d>0.0002</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>2.300</d>
+<d>0.3166</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9565</d>
+<d>0.1271</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1222</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>6.602</d>
+<d>0.0368</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.9378</d>
+<d>0.0293</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.1608</d>
+<d>0.0107</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>4.359</d>
+<d>0.1131</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.8811</d>
+<d>0.0006</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.1656</d>
+<d>0.0074</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.612</d>
+<d>0.1643</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9603</d>
+<d>0.1716</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1286</d>
+<d>0.0938</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>2.541</d>
+<d>0.2807</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9633</d>
+<d>0.2164</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.08381</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>8.871</d>
+<d>0.0118</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.8973</d>
+<d>0.0016</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.1680</d>
+<d>0.0061</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>9.643</d>
+<d>0.0081</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.8419</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.2063</d>
+<d>0.0002</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>14.65</d>
+<d>0.0007</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.8553</d>
+<d>0.0001</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.2152</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>17.48</d>
+<d>0.0002</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.8560</d>
+<d>0.0001</d>
+<d>No</d>
+<d>***</d>
+<d/>
+<d/>
+<d>0.2411</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.227</d>
+<d>0.1992</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9309</d>
+<d>0.0172</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.1560</d>
+<d>0.0155</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>4.567</d>
+<d>0.1019</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9626</d>
+<d>0.2054</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09513</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>7.993</d>
+<d>0.0184</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.9507</d>
+<d>0.0800</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1375</d>
+<d>0.0548</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.897</d>
+<d>0.1425</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9234</d>
+<d>0.0099</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.1130</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.871</d>
+<d>0.1443</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9668</d>
+<d>0.2840</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1149</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>2.815</d>
+<d>0.2448</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9606</d>
+<d>0.1762</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1014</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>25.30</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.8269</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.1674</d>
+<d>0.0064</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>6.917</d>
+<d>0.0315</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.9205</d>
+<d>0.0080</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.1323</d>
+<d>0.0753</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>3.954</d>
+<d>0.1385</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.9437</d>
+<d>0.0460</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.1333</d>
+<d>0.0709</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table10" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_RT:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_RT</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>7</d>
+<d>133.0</d>
+<d/>
+<d/>
+<d>7</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table11" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_RT:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+<d/>
+<d>Test details</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>9</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-125.0</d>
+<d>-50.00</d>
+<d>75.00</d>
+<d>-42.00</d>
+<d>-8.000</d>
+<d>123.0</d>
+<d>34.00</d>
+<d>165.0</d>
+<d>131.0</d>
+<d/>
+<d>Rank sum 1</d>
+<d>86.00</d>
+<d>86.00</d>
+<d>211.0</d>
+<d>190.0</d>
+<d>190.0</d>
+<d>190.0</d>
+<d>232.0</d>
+<d>232.0</d>
+<d>198.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d/>
+<d>Rank sum 2</d>
+<d>211.0</d>
+<d>136.0</d>
+<d>136.0</d>
+<d>232.0</d>
+<d>198.0</d>
+<d>67.00</d>
+<d>198.0</d>
+<d>67.00</d>
+<d>67.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>ns</d>
+<d>***</d>
+<d>ns</d>
+<d>ns</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>****</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-125.0</d>
+<d>-50.00</d>
+<d>75.00</d>
+<d>-42.00</d>
+<d>-8.000</d>
+<d>123.0</d>
+<d>34.00</d>
+<d>165.0</d>
+<d>131.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>0.0869</d>
+<d>0.0009</d>
+<d>0.2675</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.7062</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d/>
+<d>n1</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>E-F</d>
+<d>E-G</d>
+<d>F-G</d>
+<d>H-I</d>
+<d>H-J</d>
+<d>H-K</d>
+<d>I-J</d>
+<d>I-K</d>
+<d>J-K</d>
+<d/>
+<d>n2</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>6.469</d>
+<d>2.588</d>
+<d>3.882</d>
+<d>2.174</d>
+<d>0.4140</d>
+<d>6.366</d>
+<d>1.760</d>
+<d>8.540</d>
+<d>6.780</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table12" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_RT:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_RT</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>12</d>
+<d>190.9</d>
+<d/>
+<d/>
+<d>12</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table13" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_RT:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+<d/>
+<d>Test details</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>12</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-8.000</d>
+<d>9.500</d>
+<d>17.50</d>
+<d>-144.0</d>
+<d>-106.0</d>
+<d>38.00</d>
+<d>-196.0</d>
+<d>-67.00</d>
+<d>129.0</d>
+<d>-127.0</d>
+<d>-41.00</d>
+<d>86.00</d>
+<d/>
+<d>Rank sum 1</d>
+<d>249.5</d>
+<d>249.5</d>
+<d>257.5</d>
+<d>249.0</d>
+<d>249.0</d>
+<d>393.0</d>
+<d>221.0</d>
+<d>221.0</d>
+<d>417.0</d>
+<d>94.00</d>
+<d>94.00</d>
+<d>221.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>257.5</d>
+<d>240.0</d>
+<d>240.0</d>
+<d>393.0</d>
+<d>355.0</d>
+<d>355.0</d>
+<d>417.0</d>
+<d>288.0</d>
+<d>288.0</d>
+<d>221.0</d>
+<d>135.0</d>
+<d>135.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>****</d>
+<d>*</d>
+<d>ns</d>
+<d>****</d>
+<d>ns</d>
+<d>***</d>
+<d>***</d>
+<d>ns</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-8.000</d>
+<d>9.500</d>
+<d>17.50</d>
+<d>-144.0</d>
+<d>-106.0</d>
+<d>38.00</d>
+<d>-196.0</d>
+<d>-67.00</d>
+<d>129.0</d>
+<d>-127.0</d>
+<d>-41.00</d>
+<d>86.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.0122</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.4530</d>
+<d>0.0008</d>
+<d>0.0010</d>
+<d>&gt;0.9999</d>
+<d>0.0919</d>
+<d/>
+<d>n1</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>L-M</d>
+<d>L-N</d>
+<d>M-N</d>
+<d>O-P</d>
+<d>O-Q</d>
+<d>P-Q</d>
+<d>R-S</d>
+<d>R-T</d>
+<d>S-T</d>
+<d>U-V</d>
+<d>U-W</d>
+<d>V-W</d>
+<d/>
+<d>n2</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+<d>40</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>0.2481</d>
+<d>0.2946</d>
+<d>0.5427</d>
+<d>4.465</d>
+<d>3.287</d>
+<d>1.178</d>
+<d>6.078</d>
+<d>2.078</d>
+<d>4.000</d>
+<d>3.938</d>
+<d>1.271</d>
+<d>2.667</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table15" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Descriptive statistics of Mean_Rating</Title>
+<RowTitlesColumn Width="110">
+<Subcolumn>
+<d>Number of values</d>
+<d/>
+<d>Minimum</d>
+<d>Maximum</d>
+<d>Range</d>
+<d/>
+<d>Mean</d>
+<d>Std. Deviation</d>
+<d>Std. Error of Mean</d>
+<d/>
+<d>Skewness</d>
+<d>Kurtosis</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>20.83</d>
+<d>87.50</d>
+<d>66.67</d>
+<d/>
+<d>60.95</d>
+<d>16.81</d>
+<d>3.760</d>
+<d/>
+<d>-0.6299</d>
+<d>0.5567</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>4.167</d>
+<d>41.67</d>
+<d>37.50</d>
+<d/>
+<d>21.29</d>
+<d>10.10</d>
+<d>2.257</d>
+<d/>
+<d>0.3344</d>
+<d>-0.8680</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>happy unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>37.50</d>
+<d>37.50</d>
+<d/>
+<d>17.76</d>
+<d>11.24</d>
+<d>2.514</d>
+<d/>
+<d>0.02580</d>
+<d>-0.9297</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>33.33</d>
+<d>83.33</d>
+<d>50.00</d>
+<d/>
+<d>48.18</d>
+<d>15.39</d>
+<d>3.440</d>
+<d/>
+<d>0.9041</d>
+<d>-0.2390</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>12.50</d>
+<d>50.00</d>
+<d>37.50</d>
+<d/>
+<d>27.37</d>
+<d>11.17</d>
+<d>2.498</d>
+<d/>
+<d>0.7792</d>
+<d>-0.1253</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>4.167</d>
+<d>41.67</d>
+<d>37.50</d>
+<d/>
+<d>24.45</d>
+<d>11.58</d>
+<d>2.590</d>
+<d/>
+<d>-0.1695</d>
+<d>-1.018</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>29.17</d>
+<d>87.50</d>
+<d>58.33</d>
+<d/>
+<d>46.19</d>
+<d>15.65</d>
+<d>3.500</d>
+<d/>
+<d>1.625</d>
+<d>2.586</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>8.333</d>
+<d>45.83</d>
+<d>37.50</d>
+<d/>
+<d>22.40</d>
+<d>10.32</d>
+<d>2.307</d>
+<d/>
+<d>0.7874</d>
+<d>0.4192</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>neutral unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>50.00</d>
+<d>50.00</d>
+<d/>
+<d>31.41</d>
+<d>13.75</d>
+<d>3.075</d>
+<d/>
+<d>-0.7896</d>
+<d>-0.09347</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>21.74</d>
+<d>21.74</d>
+<d/>
+<d>2.564</d>
+<d>6.109</d>
+<d>1.366</d>
+<d/>
+<d>2.510</d>
+<d>5.621</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>47.83</d>
+<d>100.0</d>
+<d>52.17</d>
+<d/>
+<d>90.27</d>
+<d>16.52</d>
+<d>3.693</d>
+<d/>
+<d>-1.901</d>
+<d>2.573</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>50.00</d>
+<d>50.00</d>
+<d/>
+<d>7.166</d>
+<d>12.73</d>
+<d>2.847</d>
+<d/>
+<d>2.509</d>
+<d>6.623</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>32.10</d>
+<d>27.26</d>
+<d>6.096</d>
+<d/>
+<d>1.101</d>
+<d>1.019</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>65.22</d>
+<d>65.22</d>
+<d/>
+<d>25.16</d>
+<d>19.46</d>
+<d>4.352</d>
+<d/>
+<d>0.4859</d>
+<d>-0.7458</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>73.91</d>
+<d>73.91</d>
+<d/>
+<d>42.74</d>
+<d>19.97</d>
+<d>4.465</d>
+<d/>
+<d>-0.3894</d>
+<d>-0.1684</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>20.83</d>
+<d>100.0</d>
+<d>79.17</d>
+<d/>
+<d>65.33</d>
+<d>20.19</d>
+<d>4.515</d>
+<d/>
+<d>-0.3086</d>
+<d>-0.1850</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>20.83</d>
+<d>20.83</d>
+<d/>
+<d>7.990</d>
+<d>6.886</d>
+<d>1.540</d>
+<d/>
+<d>0.6175</d>
+<d>-0.8105</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>58.33</d>
+<d>58.33</d>
+<d/>
+<d>26.68</d>
+<d>18.13</d>
+<d>4.054</d>
+<d/>
+<d>0.2566</d>
+<d>-1.177</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms yes</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>83.33</d>
+<d>100.0</d>
+<d>16.67</d>
+<d/>
+<d>97.25</d>
+<d>5.310</d>
+<d>1.187</d>
+<d/>
+<d>-2.081</d>
+<d>3.472</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms no</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>12.50</d>
+<d>12.50</d>
+<d/>
+<d>1.051</d>
+<d>2.995</d>
+<d>0.6697</d>
+<d/>
+<d>3.368</d>
+<d>12.10</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms unsure</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>16.67</d>
+<d>16.67</d>
+<d/>
+<d>1.695</d>
+<d>3.938</d>
+<d>0.8805</d>
+<d/>
+<d>3.213</d>
+<d>11.65</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table16" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Normality and Lognormality Tests of Mean_Rating</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Test for normal distribution</d>
+<d>  Shapiro-Wilk test</d>
+<d>    W</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>  Kolmogorov-Smirnov test</d>
+<d>    KS distance</d>
+<d>    P value</d>
+<d>    Passed normality test (alpha=0.05)?</d>
+<d>    P value summary</d>
+<d/>
+<d>Number of values</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9516</d>
+<d>0.3918</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1574</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9274</d>
+<d>0.1375</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1930</d>
+<d>0.0492</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>happy unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9622</d>
+<d>0.5882</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1125</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.8654</d>
+<d>0.0097</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.2062</d>
+<d>0.0257</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9157</d>
+<d>0.0820</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1707</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9402</d>
+<d>0.2419</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1481</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.8270</d>
+<d>0.0022</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d/>
+<d>0.2039</d>
+<d>0.0288</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9274</d>
+<d>0.1379</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1254</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>neutral unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9237</d>
+<d>0.1169</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1710</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.4948</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.4627</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.6474</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3319</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.6285</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3315</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.8979</d>
+<d>0.0377</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.1572</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9391</d>
+<d>0.2301</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1687</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9619</d>
+<d>0.5815</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1187</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9806</d>
+<d>0.9421</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.09008</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.8862</d>
+<d>0.0229</d>
+<d>No</d>
+<d>*</d>
+<d/>
+<d/>
+<d>0.2415</d>
+<d>0.0034</d>
+<d>No</d>
+<d>**</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.9339</d>
+<d>0.1839</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d/>
+<d>0.1393</d>
+<d>&gt;0.1000</d>
+<d>Yes</d>
+<d>ns</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms yes</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.5835</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.3974</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms no</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.4122</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.4871</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms unsure</Title>
+<Subcolumn>
+<d/>
+<d/>
+<d>0.4915</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d/>
+<d>0.4165</d>
+<d>&lt;0.0001</d>
+<d>No</d>
+<d>****</d>
+<d/>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table17" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Rating:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_Rating</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>9</d>
+<d>77.97</d>
+<d/>
+<d/>
+<d>9</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table18" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Rating:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  happy yes vs. happy no</d>
+<d>  happy yes vs. happy unsure</d>
+<d>  happy no vs. happy unsure</d>
+<d>  sad yes vs. sad no</d>
+<d>  sad yes vs. sad unsure</d>
+<d>  sad no vs. sad unsure</d>
+<d>  neutral yes vs. neutral no</d>
+<d>  neutral yes vs. neutral unsure</d>
+<d>  neutral no vs. neutral unsure</d>
+<d>  happy yes vs. sad yes</d>
+<d>  happy yes vs. neutral yes</d>
+<d>  sad yes vs. neutral yes</d>
+<d>  happy no vs. sad no</d>
+<d>  happy no vs. neutral no</d>
+<d>  sad no vs. neutral no</d>
+<d>  happy unsure vs. sad unsure</d>
+<d>  happy unsure vs. neutral unsure</d>
+<d>  sad unsure vs. neutral unsure</d>
+<d/>
+<d>Test details</d>
+<d>  happy yes vs. happy no</d>
+<d>  happy yes vs. happy unsure</d>
+<d>  happy no vs. happy unsure</d>
+<d>  sad yes vs. sad no</d>
+<d>  sad yes vs. sad unsure</d>
+<d>  sad no vs. sad unsure</d>
+<d>  neutral yes vs. neutral no</d>
+<d>  neutral yes vs. neutral unsure</d>
+<d>  neutral no vs. neutral unsure</d>
+<d>  happy yes vs. sad yes</d>
+<d>  happy yes vs. neutral yes</d>
+<d>  sad yes vs. neutral yes</d>
+<d>  happy no vs. sad no</d>
+<d>  happy no vs. neutral no</d>
+<d>  sad no vs. neutral no</d>
+<d>  happy unsure vs. sad unsure</d>
+<d>  happy unsure vs. neutral unsure</d>
+<d>  sad unsure vs. neutral unsure</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>18</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>96.50</d>
+<d>116.0</d>
+<d>19.50</d>
+<d>44.00</d>
+<d>54.00</d>
+<d>10.00</d>
+<d>62.50</d>
+<d>29.00</d>
+<d>-33.50</d>
+<d>30.50</d>
+<d>32.00</d>
+<d>1.500</d>
+<d>-22.00</d>
+<d>-2.000</d>
+<d>20.00</d>
+<d>-31.50</d>
+<d>-55.00</d>
+<d>-23.50</d>
+<d/>
+<d>Rank sum 1</d>
+<d>165.5</d>
+<d>165.5</d>
+<d>69.00</d>
+<d>135.0</d>
+<d>135.0</d>
+<d>91.00</d>
+<d>133.5</d>
+<d>133.5</d>
+<d>71.00</d>
+<d>165.5</d>
+<d>165.5</d>
+<d>135.0</d>
+<d>69.00</d>
+<d>69.00</d>
+<d>91.00</d>
+<d>49.50</d>
+<d>49.50</d>
+<d>81.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>69.00</d>
+<d>49.50</d>
+<d>49.50</d>
+<d>91.00</d>
+<d>81.00</d>
+<d>81.00</d>
+<d>71.00</d>
+<d>104.5</d>
+<d>104.5</d>
+<d>135.0</d>
+<d>133.5</d>
+<d>133.5</d>
+<d>91.00</d>
+<d>71.00</d>
+<d>71.00</d>
+<d>81.00</d>
+<d>104.5</d>
+<d>104.5</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>ns</d>
+<d>*</d>
+<d>ns</d>
+<d>**</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>*</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>96.50</d>
+<d>116.0</d>
+<d>19.50</d>
+<d>44.00</d>
+<d>54.00</d>
+<d>10.00</d>
+<d>62.50</d>
+<d>29.00</d>
+<d>-33.50</d>
+<d>30.50</d>
+<d>32.00</d>
+<d>1.500</d>
+<d>-22.00</d>
+<d>-2.000</d>
+<d>20.00</d>
+<d>-31.50</d>
+<d>-55.00</d>
+<d>-23.50</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.1993</d>
+<d>0.0328</d>
+<d>&gt;0.9999</d>
+<d>0.0055</d>
+<d>&gt;0.9999</d>
+<d>0.9558</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>0.0269</d>
+<d>&gt;0.9999</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>B-C</d>
+<d>B-D</d>
+<d>C-D</d>
+<d>E-F</d>
+<d>E-G</d>
+<d>F-G</d>
+<d>H-I</d>
+<d>H-J</d>
+<d>I-J</d>
+<d>B-E</d>
+<d>B-H</d>
+<d>E-H</d>
+<d>C-F</d>
+<d>C-I</d>
+<d>F-I</d>
+<d>D-G</d>
+<d>D-J</d>
+<d>G-J</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>5.571</d>
+<d>6.697</d>
+<d>1.126</d>
+<d>2.540</d>
+<d>3.118</d>
+<d>0.5774</d>
+<d>3.608</d>
+<d>1.674</d>
+<d>1.934</d>
+<d>1.761</d>
+<d>1.848</d>
+<d>0.08660</d>
+<d>1.270</d>
+<d>0.1155</d>
+<d>1.155</d>
+<d>1.819</d>
+<d>3.175</d>
+<d>1.357</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table19" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Rating:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Mean_Rating</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>12</d>
+<d>176.7</d>
+<d/>
+<d/>
+<d>12</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table20" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Mean_Rating:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  8ms yes vs. 8ms no</d>
+<d>  8ms yes vs. 8ms unsure</d>
+<d>  8ms no vs. 8ms unsure</d>
+<d>  16ms yes vs. 16ms no</d>
+<d>  16ms yes vs. 16ms unsure</d>
+<d>  16ms no vs. 16ms unsure</d>
+<d>  25ms yes vs. 25ms no</d>
+<d>  25ms yes vs. 25ms unsure</d>
+<d>  25ms no vs. 25ms unsure</d>
+<d>  141ms yes vs. 141ms no</d>
+<d>  141ms yes vs. 141ms unsure</d>
+<d>  141ms no vs. 141ms unsure</d>
+<d>  8ms yes vs. 16ms yes</d>
+<d>  8ms yes vs. 25ms yes</d>
+<d>  8ms yes vs. 141ms yes</d>
+<d>  16ms yes vs. 25ms yes</d>
+<d>  16ms yes vs. 141ms yes</d>
+<d>  25ms yes vs. 141ms yes</d>
+<d>  8ms no vs. 16ms no</d>
+<d>  8ms no vs. 25ms no</d>
+<d>  8ms no vs. 141ms no</d>
+<d>  16ms no vs. 25ms no</d>
+<d>  16ms no vs. 141ms no</d>
+<d>  25ms no vs. 141ms no</d>
+<d>  8ms unsure vs. 16ms unsure</d>
+<d>  8ms unsure vs. 25ms unsure</d>
+<d>  8ms unsure vs. 141ms unsure</d>
+<d>  16ms unsure vs. 25ms unsure</d>
+<d>  16ms unsure vs. 141ms unsure</d>
+<d>  25ms unsure vs. 141ms unsure</d>
+<d/>
+<d>Test details</d>
+<d>  8ms yes vs. 8ms no</d>
+<d>  8ms yes vs. 8ms unsure</d>
+<d>  8ms no vs. 8ms unsure</d>
+<d>  16ms yes vs. 16ms no</d>
+<d>  16ms yes vs. 16ms unsure</d>
+<d>  16ms no vs. 16ms unsure</d>
+<d>  25ms yes vs. 25ms no</d>
+<d>  25ms yes vs. 25ms unsure</d>
+<d>  25ms no vs. 25ms unsure</d>
+<d>  141ms yes vs. 141ms no</d>
+<d>  141ms yes vs. 141ms unsure</d>
+<d>  141ms no vs. 141ms unsure</d>
+<d>  8ms yes vs. 16ms yes</d>
+<d>  8ms yes vs. 25ms yes</d>
+<d>  8ms yes vs. 141ms yes</d>
+<d>  16ms yes vs. 25ms yes</d>
+<d>  16ms yes vs. 141ms yes</d>
+<d>  25ms yes vs. 141ms yes</d>
+<d>  8ms no vs. 16ms no</d>
+<d>  8ms no vs. 25ms no</d>
+<d>  8ms no vs. 141ms no</d>
+<d>  16ms no vs. 25ms no</d>
+<d>  16ms no vs. 141ms no</d>
+<d>  25ms no vs. 141ms no</d>
+<d>  8ms unsure vs. 16ms unsure</d>
+<d>  8ms unsure vs. 25ms unsure</d>
+<d>  8ms unsure vs. 141ms unsure</d>
+<d>  16ms unsure vs. 25ms unsure</d>
+<d>  16ms unsure vs. 141ms unsure</d>
+<d>  25ms unsure vs. 141ms unsure</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>30</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-161.5</d>
+<d>-23.50</d>
+<d>138.0</d>
+<d>10.50</d>
+<d>-18.50</d>
+<d>-29.00</d>
+<d>95.00</d>
+<d>55.50</d>
+<d>-39.50</d>
+<d>181.0</d>
+<d>176.5</d>
+<d>-4.500</d>
+<d>-85.00</d>
+<d>-134.5</d>
+<d>-173.5</d>
+<d>-49.50</d>
+<d>-88.50</d>
+<d>-39.00</d>
+<d>87.00</d>
+<d>122.0</d>
+<d>169.0</d>
+<d>35.00</d>
+<d>82.00</d>
+<d>47.00</d>
+<d>-80.00</d>
+<d>-55.50</d>
+<d>26.50</d>
+<d>24.50</d>
+<d>106.5</d>
+<d>82.00</d>
+<d/>
+<d>Rank sum 1</d>
+<d>58.00</d>
+<d>58.00</d>
+<d>219.5</d>
+<d>143.0</d>
+<d>143.0</d>
+<d>132.5</d>
+<d>192.5</d>
+<d>192.5</d>
+<d>97.50</d>
+<d>231.5</d>
+<d>231.5</d>
+<d>50.50</d>
+<d>58.00</d>
+<d>58.00</d>
+<d>58.00</d>
+<d>143.0</d>
+<d>143.0</d>
+<d>192.5</d>
+<d>219.5</d>
+<d>219.5</d>
+<d>219.5</d>
+<d>132.5</d>
+<d>132.5</d>
+<d>97.50</d>
+<d>81.50</d>
+<d>81.50</d>
+<d>81.50</d>
+<d>161.5</d>
+<d>161.5</d>
+<d>137.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d/>
+<d>Rank sum 2</d>
+<d>219.5</d>
+<d>81.50</d>
+<d>81.50</d>
+<d>132.5</d>
+<d>161.5</d>
+<d>161.5</d>
+<d>97.50</d>
+<d>137.0</d>
+<d>137.0</d>
+<d>50.50</d>
+<d>55.00</d>
+<d>55.00</d>
+<d>143.0</d>
+<d>192.5</d>
+<d>231.5</d>
+<d>192.5</d>
+<d>231.5</d>
+<d>231.5</d>
+<d>132.5</d>
+<d>97.50</d>
+<d>50.50</d>
+<d>97.50</d>
+<d>50.50</d>
+<d>50.50</d>
+<d>161.5</d>
+<d>137.0</d>
+<d>55.00</d>
+<d>137.0</d>
+<d>55.00</d>
+<d>55.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>***</d>
+<d>ns</d>
+<d>ns</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>ns</d>
+<d>**</d>
+<d>****</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>ns</d>
+<d>*</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>****</d>
+<d>**</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>-161.5</d>
+<d>-23.50</d>
+<d>138.0</d>
+<d>10.50</d>
+<d>-18.50</d>
+<d>-29.00</d>
+<d>95.00</d>
+<d>55.50</d>
+<d>-39.50</d>
+<d>181.0</d>
+<d>176.5</d>
+<d>-4.500</d>
+<d>-85.00</d>
+<d>-134.5</d>
+<d>-173.5</d>
+<d>-49.50</d>
+<d>-88.50</d>
+<d>-39.00</d>
+<d>87.00</d>
+<d>122.0</d>
+<d>169.0</d>
+<d>35.00</d>
+<d>82.00</d>
+<d>47.00</d>
+<d>-80.00</d>
+<d>-55.50</d>
+<d>26.50</d>
+<d>24.50</d>
+<d>106.5</d>
+<d>82.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>0.0009</d>
+<d>0.4482</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0058</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>0.8986</d>
+<d>0.0031</d>
+<d>&gt;0.9999</d>
+<d>0.0041</d>
+<d>&lt;0.0001</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0097</d>
+<d>&gt;0.9999</d>
+<d>0.0135</d>
+<d>0.4482</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.0097</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>K-L</d>
+<d>K-M</d>
+<d>L-M</d>
+<d>N-O</d>
+<d>N-P</d>
+<d>O-P</d>
+<d>Q-R</d>
+<d>Q-S</d>
+<d>R-S</d>
+<d>T-U</d>
+<d>T-V</d>
+<d>U-V</d>
+<d>K-N</d>
+<d>K-Q</d>
+<d>K-T</d>
+<d>N-Q</d>
+<d>N-T</d>
+<d>Q-T</d>
+<d>L-O</d>
+<d>L-R</d>
+<d>L-U</d>
+<d>O-R</d>
+<d>O-U</d>
+<d>R-U</d>
+<d>M-P</d>
+<d>M-S</d>
+<d>M-V</d>
+<d>P-S</d>
+<d>P-V</d>
+<d>S-V</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>7.082</d>
+<d>1.031</d>
+<d>6.052</d>
+<d>0.4605</d>
+<d>0.8113</d>
+<d>1.272</d>
+<d>4.166</d>
+<d>2.434</d>
+<d>1.732</d>
+<d>7.937</d>
+<d>7.740</d>
+<d>0.1973</d>
+<d>3.727</d>
+<d>5.898</d>
+<d>7.608</d>
+<d>2.171</d>
+<d>3.881</d>
+<d>1.710</d>
+<d>3.815</d>
+<d>5.350</d>
+<d>7.411</d>
+<d>1.535</d>
+<d>3.596</d>
+<d>2.061</d>
+<d>3.508</d>
+<d>2.434</d>
+<d>1.162</d>
+<d>1.074</d>
+<d>4.670</d>
+<d>3.596</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table25" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Descriptive statistics of Study 1 Mean Accuracy</Title>
+<RowTitlesColumn Width="110">
+<Subcolumn>
+<d>Number of values</d>
+<d/>
+<d>Minimum</d>
+<d>Maximum</d>
+<d>Range</d>
+<d/>
+<d>Mean</d>
+<d>Std. Deviation</d>
+<d>Std. Error of Mean</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>219.0</d>
+<d>358.0</d>
+<d>139.0</d>
+<d/>
+<d>325.1</d>
+<d>40.66</d>
+<d>9.091</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>196.0</d>
+<d>302.0</d>
+<d>106.0</d>
+<d/>
+<d>260.0</d>
+<d>28.12</d>
+<d>6.288</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>71.88</d>
+<d>92.69</d>
+<d>20.82</d>
+<d/>
+<d>80.40</d>
+<d>5.963</d>
+<d>1.333</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>74.14</d>
+<d>97.20</d>
+<d>23.06</d>
+<d/>
+<d>87.64</d>
+<d>7.295</d>
+<d>1.631</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>47.90</d>
+<d>96.00</d>
+<d>48.10</d>
+<d/>
+<d>64.31</d>
+<d>12.13</d>
+<d>2.711</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>79.31</d>
+<d>97.50</d>
+<d>18.19</d>
+<d/>
+<d>88.33</d>
+<d>6.156</d>
+<d>1.376</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>28.57</d>
+<d>100.0</d>
+<d>71.43</d>
+<d/>
+<d>49.33</d>
+<d>23.76</d>
+<d>5.313</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>35.29</d>
+<d>86.67</d>
+<d>51.37</d>
+<d/>
+<d>66.40</d>
+<d>13.58</d>
+<d>3.036</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>62.71</d>
+<d>93.88</d>
+<d>31.17</d>
+<d/>
+<d>79.43</d>
+<d>8.705</d>
+<d>1.946</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>87.43</d>
+<d>99.43</d>
+<d>12.00</d>
+<d/>
+<d>94.87</d>
+<d>3.220</d>
+<d>0.7201</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>7.143</d>
+<d>100.0</d>
+<d>92.86</d>
+<d/>
+<d>45.33</d>
+<d>32.83</d>
+<d>7.341</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>18.74</d>
+<d>30.99</d>
+<d>6.929</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>67.12</d>
+<d>30.91</d>
+<d>6.911</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>12.50</d>
+<d>100.0</d>
+<d>87.50</d>
+<d/>
+<d>81.31</d>
+<d>25.91</d>
+<d>5.794</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>82.35</d>
+<d>82.35</d>
+<d/>
+<d>25.73</d>
+<d>21.96</d>
+<d>4.910</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>56.25</d>
+<d>100.0</d>
+<d>43.75</d>
+<d/>
+<d>82.74</d>
+<d>14.12</d>
+<d>3.158</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>84.21</d>
+<d>100.0</d>
+<d>15.79</d>
+<d/>
+<d>94.41</d>
+<d>5.483</d>
+<d>1.226</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>18.18</d>
+<d>94.74</d>
+<d>76.56</d>
+<d/>
+<d>54.94</d>
+<d>21.10</d>
+<d>4.717</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>64.71</d>
+<d>100.0</d>
+<d>35.29</d>
+<d/>
+<d>87.88</d>
+<d>11.55</d>
+<d>2.583</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>95.08</d>
+<d>100.0</d>
+<d>4.918</d>
+<d/>
+<d>98.85</d>
+<d>1.421</d>
+<d>0.3178</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>79.63</d>
+<d>100.0</d>
+<d>20.37</d>
+<d/>
+<d>91.34</d>
+<d>6.233</d>
+<d>1.394</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>73.68</d>
+<d>100.0</d>
+<d>26.32</d>
+<d/>
+<d>93.89</d>
+<d>6.821</d>
+<d>1.525</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table26" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Descriptive statistics of Study 2 Accuracy</Title>
+<RowTitlesColumn Width="110">
+<Subcolumn>
+<d>Number of values</d>
+<d/>
+<d>Minimum</d>
+<d>Maximum</d>
+<d>Range</d>
+<d/>
+<d>Mean</d>
+<d>Std. Deviation</d>
+<d>Std. Error of Mean</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="118" Decimals="15" Subcolumns="1">
+<Title>number of reactions</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>200.0</d>
+<d>337.0</d>
+<d>137.0</d>
+<d/>
+<d>247.7</d>
+<d>32.97</d>
+<d>7.371</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="157" Decimals="15" Subcolumns="1">
+<Title>number of correct answers</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>168.0</d>
+<d>252.0</d>
+<d>84.00</d>
+<d/>
+<d>207.0</d>
+<d>23.49</d>
+<d>5.253</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>total trials</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>65.28</d>
+<d>92.70</d>
+<d>27.42</d>
+<d/>
+<d>83.90</d>
+<d>5.702</d>
+<d>1.275</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>67.83</d>
+<d>100.0</d>
+<d>32.17</d>
+<d/>
+<d>95.13</d>
+<d>6.844</d>
+<d>1.530</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>43.66</d>
+<d>83.56</d>
+<d>39.90</d>
+<d/>
+<d>63.02</d>
+<d>10.83</d>
+<d>2.421</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>54.55</d>
+<d>100.0</d>
+<d>45.45</d>
+<d/>
+<d>91.46</d>
+<d>10.52</d>
+<d>2.353</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>24.19</d>
+<d>33.24</d>
+<d>7.432</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>54.32</d>
+<d>93.85</d>
+<d>39.53</d>
+<d/>
+<d>74.74</d>
+<d>9.887</d>
+<d>2.211</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>73.26</d>
+<d>92.05</d>
+<d>18.79</d>
+<d/>
+<d>85.09</d>
+<d>5.533</d>
+<d>1.237</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>84.15</d>
+<d>100.0</d>
+<d>15.85</d>
+<d/>
+<d>93.03</d>
+<d>3.892</d>
+<d>0.8703</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>29.76</d>
+<d>41.79</d>
+<d>9.345</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>40.00</d>
+<d>40.00</d>
+<d/>
+<d>3.811</d>
+<d>10.21</d>
+<d>2.283</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>8ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>100.0</d>
+<d>100.0</d>
+<d/>
+<d>20.69</d>
+<d>36.02</d>
+<d>8.055</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>61.90</d>
+<d>100.0</d>
+<d>38.10</d>
+<d/>
+<d>92.24</d>
+<d>10.75</d>
+<d>2.404</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>0.000</d>
+<d>81.25</d>
+<d>81.25</d>
+<d/>
+<d>26.04</d>
+<d>22.02</d>
+<d>4.923</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>16ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>45.00</d>
+<d>100.0</d>
+<d>55.00</d>
+<d/>
+<d>86.59</d>
+<d>14.80</d>
+<d>3.310</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>90.00</d>
+<d>100.0</d>
+<d>10.00</d>
+<d/>
+<d>98.84</d>
+<d>2.686</d>
+<d>0.6007</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>12.50</d>
+<d>87.50</d>
+<d>75.00</d>
+<d/>
+<d>57.31</d>
+<d>19.92</d>
+<d>4.455</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>25ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>51.72</d>
+<d>100.0</d>
+<d>48.28</d>
+<d/>
+<d>93.05</d>
+<d>11.70</d>
+<d>2.617</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="82" Decimals="15" Subcolumns="1">
+<Title>141ms happy</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>87.50</d>
+<d>100.0</d>
+<d>12.50</d>
+<d/>
+<d>98.73</d>
+<d>3.073</d>
+<d>0.6872</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title>141ms sad</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>63.64</d>
+<d>100.0</d>
+<d>36.36</d>
+<d/>
+<d>86.53</d>
+<d>9.640</d>
+<d>2.156</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="86" Decimals="15" Subcolumns="1">
+<Title>141ms neutral</Title>
+<Subcolumn>
+<d>20</d>
+<d/>
+<d>64.29</d>
+<d>100.0</d>
+<d>35.71</d>
+<d/>
+<d>96.00</d>
+<d>8.104</d>
+<d>1.812</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table27" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 2 Mean Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="151" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Study 2 Mean Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>7</d>
+<d>90.84</d>
+<d/>
+<d/>
+<d>7</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table28" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 2 Mean Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+<d/>
+<d>Test details</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>9</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>82.00</d>
+<d>13.00</d>
+<d>-69.00</d>
+<d>-32.00</d>
+<d>-55.00</d>
+<d>-84.00</d>
+<d>-23.00</d>
+<d>-52.00</d>
+<d>-29.00</d>
+<d/>
+<d>Rank sum 1</d>
+<d>124.0</d>
+<d>124.0</d>
+<d>42.00</d>
+<d>28.00</d>
+<d>28.00</d>
+<d>28.00</d>
+<d>60.00</d>
+<d>60.00</d>
+<d>83.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>42.00</d>
+<d>111.0</d>
+<d>111.0</d>
+<d>60.00</d>
+<d>83.00</d>
+<d>112.0</d>
+<d>83.00</d>
+<d>112.0</d>
+<d>112.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>ns</d>
+<d>***</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>82.00</d>
+<d>13.00</d>
+<d>-69.00</d>
+<d>-32.00</d>
+<d>-55.00</d>
+<d>-84.00</d>
+<d>-23.00</d>
+<d>-52.00</d>
+<d>-29.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>&lt;0.0001</d>
+<d>0.1726</d>
+<d>0.0005</d>
+<d>&lt;0.0001</d>
+<d>0.8306</d>
+<d>0.0013</d>
+<d>0.3041</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>E-F</d>
+<d>E-G</d>
+<d>F-G</d>
+<d>H-I</d>
+<d>H-J</d>
+<d>H-K</d>
+<d>I-J</d>
+<d>I-K</d>
+<d>J-K</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>6.002</d>
+<d>0.9515</d>
+<d>5.050</d>
+<d>2.342</d>
+<d>4.026</d>
+<d>6.148</d>
+<d>1.683</d>
+<d>3.806</d>
+<d>2.123</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table29" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 2 Mean Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="151" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Study 2 Mean Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>12</d>
+<d>155.6</d>
+<d/>
+<d/>
+<d>12</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table30" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 2 Mean Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d/>
+<d>Test details</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>11</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>39.50</d>
+<d>12.00</d>
+<d>-27.50</d>
+<d>99.50</d>
+<d>22.50</d>
+<d>-77.00</d>
+<d>111.5</d>
+<d>30.50</d>
+<d>-81.00</d>
+<d>54.50</d>
+<d>15.50</d>
+<d/>
+<d>Rank sum 1</d>
+<d>76.00</d>
+<d>76.00</d>
+<d>36.50</d>
+<d>167.0</d>
+<d>167.0</d>
+<d>67.50</d>
+<d>205.5</d>
+<d>205.5</d>
+<d>94.00</d>
+<d>200.0</d>
+<d>200.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>36.50</d>
+<d>64.00</d>
+<d>64.00</d>
+<d>67.50</d>
+<d>144.5</d>
+<d>144.5</d>
+<d>94.00</d>
+<d>175.0</d>
+<d>175.0</d>
+<d>145.5</d>
+<d>184.5</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d>***</d>
+<d>ns</d>
+<d>**</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>ns</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>39.50</d>
+<d>12.00</d>
+<d>-27.50</d>
+<d>99.50</d>
+<d>22.50</d>
+<d>-77.00</d>
+<d>111.5</d>
+<d>30.50</d>
+<d>-81.00</d>
+<d>54.50</d>
+<d>15.50</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>0.9156</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d>0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0081</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0042</d>
+<d>0.1853</d>
+<d>&gt;0.9999</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>L-M</d>
+<d>L-N</d>
+<d>M-N</d>
+<d>O-P</d>
+<d>O-Q</d>
+<d>P-Q</d>
+<d>R-S</d>
+<d>R-T</d>
+<d>S-T</d>
+<d>U-V</d>
+<d>U-W</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>1.732</d>
+<d>0.5262</d>
+<d>1.206</d>
+<d>4.363</d>
+<d>0.9867</d>
+<d>3.377</d>
+<d>4.890</d>
+<d>1.338</d>
+<d>3.552</d>
+<d>2.390</d>
+<d>0.6797</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table31" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 1 Mean Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="151" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Study 1 Mean Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>7</d>
+<d>81.35</d>
+<d/>
+<d/>
+<d>7</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table32" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 1 Mean Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+<d/>
+<d>Test details</d>
+<d>  happy vs. sad</d>
+<d>  happy vs. neutral</d>
+<d>  sad vs. neutral</d>
+<d>  8ms vs. 16ms</d>
+<d>  8ms vs. 25ms</d>
+<d>  8ms vs. 141ms</d>
+<d>  16ms vs. 25ms</d>
+<d>  16ms vs. 141ms</d>
+<d>  25ms vs. 141ms</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>9</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>61.50</d>
+<d>6.500</d>
+<d>-55.00</d>
+<d>-9.000</d>
+<d>-39.50</d>
+<d>-91.00</d>
+<d>-30.50</d>
+<d>-82.00</d>
+<d>-51.50</d>
+<d/>
+<d>Rank sum 1</d>
+<d>109.5</d>
+<d>109.5</d>
+<d>48.00</d>
+<d>40.00</d>
+<d>40.00</d>
+<d>40.00</d>
+<d>49.00</d>
+<d>49.00</d>
+<d>79.50</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d/>
+<d>Rank sum 2</d>
+<d>48.00</d>
+<d>103.0</d>
+<d>103.0</d>
+<d>49.00</d>
+<d>79.50</d>
+<d>131.0</d>
+<d>79.50</d>
+<d>131.0</d>
+<d>131.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>****</d>
+<d>ns</d>
+<d>***</d>
+<d>ns</d>
+<d>*</d>
+<d>****</d>
+<d>ns</d>
+<d>****</d>
+<d>**</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>61.50</d>
+<d>6.500</d>
+<d>-55.00</d>
+<d>-9.000</d>
+<d>-39.50</d>
+<d>-91.00</d>
+<d>-30.50</d>
+<d>-82.00</d>
+<d>-51.50</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0005</d>
+<d>&gt;0.9999</d>
+<d>0.0346</d>
+<d>&lt;0.0001</d>
+<d>0.2303</d>
+<d>&lt;0.0001</d>
+<d>0.0015</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>E-F</d>
+<d>E-G</d>
+<d>F-G</d>
+<d>H-I</d>
+<d>H-J</d>
+<d>H-K</d>
+<d>I-J</d>
+<d>I-K</d>
+<d>J-K</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>4.501</d>
+<d>0.4758</d>
+<d>4.026</d>
+<d>0.6587</d>
+<d>2.891</d>
+<d>6.661</d>
+<d>2.232</d>
+<d>6.002</d>
+<d>3.769</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<Table ID="Table33" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 1 Mean Accuracy:ANOVA results</Title>
+<RowTitlesColumn Width="230">
+<Subcolumn>
+<d>Table Analyzed</d>
+<d/>
+<d>Friedman test</d>
+<d>  P value</d>
+<d>  Exact or approximate P value?</d>
+<d>  P value summary</d>
+<d>  Are means signif. different? (P &lt; 0.05)</d>
+<d>  Number of groups</d>
+<d>  Friedman statistic</d>
+<d/>
+<d>Data summary</d>
+<d>  Number of treatments (columns)</d>
+<d>  Number of subjects (rows)</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="151" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>Study 1 Mean Accuracy</d>
+<d/>
+<d/>
+<d>&lt;0.0001</d>
+<d>Approximate</d>
+<d>****</d>
+<d>Yes</d>
+<d>12</d>
+<d>121.1</d>
+<d/>
+<d/>
+<d>12</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table34" XFormat="none" YFormat="text" TableType="Result" EVFormat="AsteriskAfterNumber">
+<Title>Friedman test of Study 1 Mean Accuracy:Multiple comparisons</Title>
+<RowTitlesColumn Width="235">
+<Subcolumn>
+<d>Number of families</d>
+<d>Number of comparisons per family</d>
+<d>Alpha</d>
+<d/>
+<d>Dunn's multiple comparisons test</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+<d/>
+<d>Test details</d>
+<d>  8ms happy vs. 8ms sad</d>
+<d>  8ms happy vs. 8ms neutral</d>
+<d>  8ms sad vs. 8ms neutral</d>
+<d>  16ms happy vs. 16ms sad</d>
+<d>  16ms happy vs. 16ms neutral</d>
+<d>  16ms sad vs. 16ms neutral</d>
+<d>  25ms happy vs. 25ms sad</d>
+<d>  25ms happy vs. 25ms neutral</d>
+<d>  25ms sad vs. 25ms neutral</d>
+<d>  141ms happy vs. 141ms sad</d>
+<d>  141ms happy vs. 141ms neutral</d>
+<d>  141ms sad vs. 141ms neutral</d>
+</Subcolumn>
+</RowTitlesColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d>1</d>
+<d>12</d>
+<d>0.05</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>44.00</d>
+<d>-34.00</d>
+<d>-78.00</d>
+<d>109.5</d>
+<d>22.50</d>
+<d>-87.00</d>
+<d>95.00</d>
+<d>28.50</d>
+<d>-66.50</d>
+<d>48.00</d>
+<d>36.00</d>
+<d>-12.00</d>
+<d/>
+<d>Rank sum 1</d>
+<d>89.50</d>
+<d>89.50</d>
+<d>45.50</d>
+<d>154.0</d>
+<d>154.0</d>
+<d>44.50</d>
+<d>184.0</d>
+<d>184.0</d>
+<d>89.00</d>
+<d>209.0</d>
+<d>209.0</d>
+<d>161.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="105" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Significant?</d>
+<d>No</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>Yes</d>
+<d>No</d>
+<d>Yes</d>
+<d>No</d>
+<d>No</d>
+<d>No</d>
+<d/>
+<d>Rank sum 2</d>
+<d>45.50</d>
+<d>123.5</d>
+<d>123.5</d>
+<d>44.50</d>
+<d>131.5</d>
+<d>131.5</d>
+<d>89.00</d>
+<d>155.5</d>
+<d>155.5</d>
+<d>161.0</d>
+<d>173.0</d>
+<d>173.0</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="122" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Summary</d>
+<d>ns</d>
+<d>ns</d>
+<d>**</d>
+<d>****</d>
+<d>ns</d>
+<d>**</d>
+<d>***</d>
+<d>ns</d>
+<d>*</d>
+<d>ns</d>
+<d>ns</d>
+<d>ns</d>
+<d/>
+<d>Rank sum diff.</d>
+<d>44.00</d>
+<d>-34.00</d>
+<d>-78.00</d>
+<d>109.5</d>
+<d>22.50</d>
+<d>-87.00</d>
+<d>95.00</d>
+<d>28.50</d>
+<d>-66.50</d>
+<d>48.00</d>
+<d>36.00</d>
+<d>-12.00</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="139" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Adjusted P Value</d>
+<d>0.6440</d>
+<d>&gt;0.9999</d>
+<d>0.0075</d>
+<d>&lt;0.0001</d>
+<d>&gt;0.9999</d>
+<d>0.0016</d>
+<d>0.0004</d>
+<d>&gt;0.9999</d>
+<d>0.0425</d>
+<d>0.4236</d>
+<d>&gt;0.9999</d>
+<d>&gt;0.9999</d>
+<d/>
+<d>n1</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>L-M</d>
+<d>L-N</d>
+<d>M-N</d>
+<d>O-P</d>
+<d>O-Q</d>
+<d>P-Q</d>
+<d>R-S</d>
+<d>R-T</d>
+<d>S-T</d>
+<d>U-V</d>
+<d>U-W</d>
+<d>V-W</d>
+<d/>
+<d>n2</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+<d>20</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="15" Subcolumns="1">
+<Title/>
+<Subcolumn>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d/>
+<d>Z</d>
+<d>1.930</d>
+<d>1.491</d>
+<d>3.421</d>
+<d>4.802</d>
+<d>0.9867</d>
+<d>3.815</d>
+<d>4.166</d>
+<d>1.250</d>
+<d>2.916</d>
+<d>2.105</d>
+<d>1.579</d>
+<d>0.5262</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<TableSequence>
+</TableSequence>
+</GraphPadPrismFile>
+	<xsl:template match="ps:Info">
+		<a><xsl:attribute name="name"><xsl:value-of select="@ID"/></xsl:attribute></a>
+		<table border="0">
+			<tr>
+				<td><xsl:apply-templates select="ps:Title"/> </td><td width="20"></td><td width="50%"><b>Notes</b></td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<table BORDER="1" CELLSPACING="0">
+						<tr><th>Constant</th><th>Name</th></tr>
+						<xsl:for-each select="ps:Constant">
+							<tr>
+								<td><xsl:apply-templates select="ps:Name"/> </td>
+								<td><xsl:apply-templates select="ps:Value"/> </td>
+							</tr>
+						</xsl:for-each>
+					</table>
+				</td>
+				<td></td>
+				<td valign="top">
+					<xsl:apply-templates select="ps:Notes"/>
+				</td>
+			</tr>
+		</table>
+	</xsl:template>
+	<xsl:template match="ps:GraphPadPrismFile">
+		<HTML>
+			<BODY>
+				<xsl:variable name="Chars" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+				<font color="#999999">
+					<p align="center">This file can be opened by <a href="http://www.graphpad.com">GraphPad</a> Prism (version 
+	<xsl:value-of select="@PrismXMLVersion"/> or later). </p></font><hr/>
+         This file contains <xsl:value-of select="count(ps:Table|ps:HugeTable|ps:Table1024)"/> data tables and 
+	<xsl:value-of select="count(ps:Info)+count(ps:Table|ps:HugeTable|ps:Table1024/ps:Info)"/> info tables:
+
+	<dir>
+					<xsl:for-each select="ps:Info">
+						<li>
+							<a>
+								<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+								<xsl:apply-templates select="ps:Title"/>
+							</a>
+						</li>
+					</xsl:for-each>
+					<xsl:for-each select="ps:Table|ps:HugeTable|ps:Table1024">
+						<li>
+							<a>
+								<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+								<xsl:apply-templates select="ps:Title"/>
+							</a>
+							<dir>
+								<xsl:for-each select="ps:Info">
+									<li>
+										<a>
+											<xsl:attribute name="href">#<xsl:value-of select="@ID"/></xsl:attribute>
+											<xsl:apply-templates select="ps:Title"/>
+										</a>
+									</li>
+								</xsl:for-each>
+							</dir>
+						</li>
+					</xsl:for-each>
+				</dir>
+				<hr/>
+				<xsl:apply-templates select="ps:Info"/>
+				<br/>
+				<hr/>
+				<br/>
+				<xsl:for-each select="ps:Table|ps:HugeTable|ps:Table1024">
+					<xsl:apply-templates select="ps:Title"/>
+					<a><xsl:attribute name="name"><xsl:value-of select="@ID"/></xsl:attribute></a>
+					<xsl:variable name="width" select="100 div count (*/ps:Subcolumn)"/>
+					<xsl:variable name="xFormat" select="./@XFormat"/>
+					<xsl:variable name="yFormat" select="./@YFormat"/>
+					<xsl:variable name="nRepl" select="./@replicates"/>
+					<xsl:variable name="isXAdvancedColumn" select="boolean(($xFormat='date' or $xFormat='time' or $xFormat='startenddate') and count(ps:XAdvancedColumn) &gt; 0)"/>
+					<xsl:variable name="isXAdvancedSubcol" select="boolean(($xFormat='startenddate') or count(ps:XAdvancedColumn/ps:Subcolumn/ps:Title) &gt; 0)"/>
+					<xsl:variable name="isXSubcol" select="boolean(($xFormat='error' or count(ps:XColumn/ps:Subcolumn/ps:Title) &gt; 0) and not ($isXAdvancedColumn))"/>
+					<xsl:variable name="isYSubcol" select="boolean(($yFormat='replicates'and ./@Replicates&gt;1) or &#xA;						 ($yFormat!='text'and $yFormat!='replicates') or &#xA;						count(ps:YColumn/ps:Subcolumn/ps:Title)&gt;0)"/>
+					<xsl:variable name="isYSubColNameCustom" select="boolean($isYSubcol and count(ps:SubColumnTitles)&gt;0)"/>
+					<TABLE BORDER="1" CELLSPACING="0">
+						<TR>
+							<xsl:for-each select="ps:RowTitlesColumn">
+								<TD align="center">
+									<xsl:attribute name="rowspan">
+										<xsl:if test="$isXSubcol or $isXAdvancedSubcol or $isYSubcol">2</xsl:if>
+									</xsl:attribute><BR/>
+								</TD>
+							</xsl:for-each>
+							<xsl:if test="not ($isXAdvancedColumn)">
+								<xsl:for-each select="ps:XColumn">
+									<TD align="center">
+										<xsl:attribute name="rowspan">
+											<xsl:if test="$isYSubcol and not($isXSubcol)">2</xsl:if>
+										</xsl:attribute>
+										<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+						 
+						<xsl:apply-templates select="ps:Title"/>
+										<xsl:if test="count(ps:Title)=0 or ps:Title=''">X-Title</xsl:if>				
+						 
+					</TD>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:if test="$isXAdvancedColumn">
+								<xsl:for-each select="ps:XAdvancedColumn">
+									<TD align="center">
+										<xsl:attribute name="rowspan">
+											<xsl:if test="$isYSubcol and not($isXAdvancedSubcol)">2</xsl:if>
+										</xsl:attribute>
+										<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+						 
+						<xsl:apply-templates select="ps:Title"/>
+										<xsl:if test="count(ps:Title)=0 or ps:Title=''">X-Title</xsl:if>				
+						 
+					</TD>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:for-each select="ps:YColumn">
+								<xsl:variable name="DefColName2" select="(position()-1) mod 26"/>
+								<xsl:variable name="DefColName1" select="(position()-1-$DefColName2) div 26"/>
+								<TD align="center">
+									<xsl:attribute name="colspan"><xsl:value-of select="./@Subcolumns"/></xsl:attribute>
+									<xsl:attribute name="rowspan">
+										<xsl:if test="($isXSubcol or $isXAdvancedSubcol) and not($isYSubcol)">2</xsl:if>
+									</xsl:attribute>
+					 
+					<xsl:apply-templates select="ps:Title"/>
+									<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+										<xsl:value-of select="'Data Set-'"/>
+										<xsl:if test="$DefColName1 &gt; 0">
+											<xsl:value-of select="substring($Chars,$DefColName1,1)"/>
+										</xsl:if>
+										<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>
+									</xsl:if>
+					 				
+	   			</TD>
+							</xsl:for-each>
+						</TR>
+						<xsl:if test="$isXSubcol or $isXAdvancedSubcol or $isYSubcol">
+							<TR>
+								<xsl:if test="$isXSubcol">
+									<xsl:for-each select="ps:XColumn">
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center"> 
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:choose>
+														<xsl:when test="position()=1"><B>X</B></xsl:when>
+														<xsl:when test="position()=2"><B>Err.Bar</B></xsl:when>
+													</xsl:choose>
+												</xsl:if>				
+					 
+				</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+								<xsl:if test="$isXAdvancedSubcol">
+									<xsl:for-each select="ps:XAdvancedColumn">
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center"> 
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:choose>
+														<xsl:when test="position()=1"><B>Starting Date</B></xsl:when>
+														<xsl:when test="position()=2"><B>Ending Date</B></xsl:when>
+													</xsl:choose>
+												</xsl:if>				
+					 
+				</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+								<xsl:if test="$isYSubcol">
+									<xsl:for-each select="ps:YColumn">
+										<xsl:variable name="DefColName2" select="(position()-1) mod 26"/>
+										<xsl:variable name="DefColName1" select="(position()-1-$DefColName2) div 26"/>
+										<xsl:variable name="YColumnNdx" select="position()"/>
+										<xsl:for-each select="ps:Subcolumn">
+											<TD align="center">
+					 
+					<xsl:apply-templates select="ps:Title"/>
+												<xsl:if test="count(ps:Title)=0 or ps:Title=''">
+													<xsl:if test="$yFormat='replicates' or $yFormat='text'">
+														<B>
+															<xsl:if test="$DefColName1 &gt; 0">
+																<xsl:value-of select="substring($Chars,$DefColName1,1)"/>
+															</xsl:if>
+															<xsl:choose>
+																<xsl:when test="$isYSubColNameCustom">
+																	<xsl:variable name="subColCustomNamePos" select="position()"/>
+																	<xsl:for-each select="../../ps:SubColumnTitles/ps:Subcolumn">
+																		<xsl:if test="position()=$subColCustomNamePos">
+																			<xsl:choose>
+																				<xsl:when test="../../ps:SubColumnTitles/@OwnSet='1'">
+																					<xsl:variable name="DItemsCount" select="count(./ps:d)"/>
+																					<xsl:choose>
+																						<xsl:when test="$DItemsCount&lt;$YColumnNdx or ./ps:d[$YColumnNdx]=''">
+																							<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																						</xsl:when>
+																						<xsl:otherwise>
+																							<xsl:apply-templates select="./ps:d[$YColumnNdx]"/>
+																						</xsl:otherwise>
+																					</xsl:choose>
+																				</xsl:when>
+																				<xsl:when test="../../ps:SubColumnTitles/@OwnSet='0'">
+																					<xsl:variable name="DItemsCount" select="count(./ps:d)"/>
+																					<xsl:choose>
+																						<xsl:when test="$DItemsCount&lt;1 or ./ps:d[1]=''">
+																							<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																						</xsl:when>
+																						<xsl:otherwise>
+																							<xsl:apply-templates select="./ps:d[1]"/>
+																						</xsl:otherwise>
+																					</xsl:choose>
+																				</xsl:when>
+																				<xsl:otherwise>
+																					<xsl:apply-templates select="ps:d"/>
+																					<xsl:if test="ps:d=''">
+																						<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																					</xsl:if>
+																				</xsl:otherwise>
+																			</xsl:choose>
+																		</xsl:if>
+																	</xsl:for-each>
+																</xsl:when>
+																<xsl:otherwise>
+																	<xsl:value-of select="substring($Chars,$DefColName2+1,1)"/>:Y<xsl:value-of select="position()"/>
+																</xsl:otherwise>
+															</xsl:choose>
+														</B>
+													</xsl:if>
+													<xsl:if test="$yFormat!='replicates' and $yFormat!='text'">
+														<xsl:if test="not($yFormat='replicates' or $yFormat='text')">
+															<xsl:if test="position()=1"><B>Mean</B></xsl:if>
+															<xsl:if test="position()!=1">
+																<xsl:choose>
+																	<xsl:when test="$yFormat='SD'">
+																		<B>SD</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SE'">
+																		<B>SEM</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='CV'">
+																		<B>%CV</B>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SDN'">
+																		<xsl:if test="position()=2"><B>SD</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='SEN'">
+																		<xsl:if test="position()=2"><B>SEM</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='CVN'">
+																		<xsl:if test="position()=2"><B>%CV</B></xsl:if>
+																		<xsl:if test="position()=3"><B>N</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='low-high'">
+																		<xsl:if test="position()=2"><B>+Error</B></xsl:if>
+																		<xsl:if test="position()=3"><B>-Error</B></xsl:if>
+																	</xsl:when>
+																	<xsl:when test="$yFormat='upper-lower-limits'">
+																		<xsl:if test="position()=2"><B>UpperLimit</B></xsl:if>
+																		<xsl:if test="position()=3"><B>LowerLimit</B></xsl:if>
+																	</xsl:when>
+																</xsl:choose>
+															</xsl:if>
+														</xsl:if>
+													</xsl:if>
+												</xsl:if>
+					 				
+	   			</TD>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:if>
+							</TR>
+						</xsl:if>
+						<TR>
+							<xsl:for-each select="ps:RowTitlesColumn/ps:Subcolumn">
+								<td valign="top" nowrap="1">
+									<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+									<xsl:apply-templates select="ps:d"/>
+									<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+								</td>
+							</xsl:for-each>
+							<xsl:if test="not($isXAdvancedColumn)">
+								<xsl:for-each select="ps:XColumn/ps:Subcolumn">
+									<td valign="top" nowrap="1">
+										<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+										<xsl:apply-templates select="ps:d"/>
+										<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+									</td>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:if test="$isXAdvancedColumn">
+								<xsl:for-each select="ps:XAdvancedColumn/ps:Subcolumn">
+									<td valign="top" nowrap="1">
+										<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+										<xsl:apply-templates select="ps:d"/>
+										<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+									</td>
+								</xsl:for-each>
+							</xsl:if>
+							<xsl:for-each select="ps:YColumn/ps:Subcolumn">
+								<td valign="top" nowrap="1">
+									<xsl:attribute name="width"><xsl:value-of select="$width"/>%</xsl:attribute>
+									<xsl:apply-templates select="ps:d"/>
+									<xsl:if test="count(ps:d)=0"><br/></xsl:if>
+								</td>
+							</xsl:for-each>
+						</TR>
+					</TABLE>
+					<br/>
+					<xsl:apply-templates select="ps:Info"/>
+					<br/>
+					<hr/>
+					<br/>
+				</xsl:for-each>
+			</BODY>
+		</HTML>
+	</xsl:template>
+	<!--<xsl:template match="ps:d">
+	<xsl:choose>
+		<xsl:when test="@Excluded and string-length(text())" >
+		    <font color="#0000ee">
+	      		<xsl:apply-templates select="node()"/>*		
+		    </font>
+		</xsl:when>
+	    <xsl:otherwise>
+			<xsl:apply-templates select="node()"/>
+		</xsl:otherwise>
+	</xsl:choose>
+	<xsl:if test="position()!=last()"><br/></xsl:if>
+</xsl:template>-->
+	<xsl:template match="ps:d">
+		<xsl:choose>
+			<xsl:when test="@Excluded and string-length(text())">
+				<xsl:choose>
+					<xsl:when test="../../../@EVFormat='AsteriskAfterNumber'">
+						<font color="#0000ee">
+							<xsl:apply-templates select="node()"/>*
+						</font>
+					</xsl:when>
+					<xsl:when test="../../../@EVFormat='Blank'">
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="node()"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates select="node()"/>
+			</xsl:otherwise>
+		</xsl:choose>
+		<xsl:if test="position()!=last()"><br/></xsl:if>
+	</xsl:template>
+	<xsl:template match="ps:Title">
+		<b><xsl:apply-templates select="node()"/></b>
+	</xsl:template>
+	<xsl:template match="node()">
+		<xsl:param name="DoNotUseBR" select="0"/>
+		<xsl:choose>
+			<xsl:when test="name()='BR' and $DoNotUseBR=1">
+				<div/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:copy>
+					<xsl:apply-templates select="node()">
+						<xsl:with-param name="DoNotUseBR" select="$DoNotUseBR"/>
+					</xsl:apply-templates>
+				</xsl:copy>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template match="ps:Font">
+		<xsl:param name="DoNotUseBR" select="0"/>
+		<font>
+			<xsl:if test="@Size">
+				<xsl:attribute name="STYLE">font-size:<xsl:value-of select="@Size"/>pt</xsl:attribute>
+			</xsl:if>
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates select="node()">
+				<xsl:with-param name="DoNotUseBR" select="$DoNotUseBR"/>
+			</xsl:apply-templates>
+		</font>
+	</xsl:template>
+	<xsl:template match="ps:LineStyles">
+		<div>
+			<xsl:if test="@align">
+				<xsl:attribute name="align"><xsl:value-of select="@align"/></xsl:attribute>
+			</xsl:if>
+			<xsl:if test="@spacing">
+				<xsl:variable name="sp" select="@spacing"/>
+				<xsl:attribute name="style">margin-bottom:<xsl:value-of select="(@spacing -100) div 5"/>pt</xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates select="node()">
+				<xsl:with-param name="DoNotUseBR" select="1"/>
+			</xsl:apply-templates>
+		</div>
+	</xsl:template>
+	<xsl:template match="ps:Notes">
+		<xsl:apply-templates select="node()">
+			<xsl:with-param name="DoNotUseBR" select="1"/>
+		</xsl:apply-templates>
+	</xsl:template>
+	<xsl:template match="/">
+		<HTML>
+			<BODY>
+				<xsl:apply-templates select="//ps:GraphPadPrismFile"/>
+			</BODY>
+		</HTML>
+	</xsl:template>
+</xsl:stylesheet>
