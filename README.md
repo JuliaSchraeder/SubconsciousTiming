@@ -25,7 +25,7 @@ Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagel
 
 #### Preprint DOI
 
-10.31234/osf.io/mscz5
+osf.io/mscz5
 
 #### License
 
