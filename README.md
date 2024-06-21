@@ -1,5 +1,12 @@
 # Timing evaluation for subconscious stimulus presentation
 
+#### AUTHORS
+Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagels 1,2
+
+* <sub><sup>1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany</sup></sub>
+* <sub><sup>2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany</sup></sub>
+* <sub><sup>3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea</sup></sub>
+
 ## Table of contents
 * [General info](#general-info)
 	* [Authors](#authors) 
@@ -13,15 +20,6 @@
 ## General info
 This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
 On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
-
-#### AUTHORS
-Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagels 1,2
-
-* <sub><sup>1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany</sup></sub>
-* <sub><sup>2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany</sup></sub>
-* <sub><sup>3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea</sup></sub>
-
-
 
 #### Preprint DOI
 
@@ -60,7 +58,6 @@ Project is created with:
 * Python 3
 * GraphPad Prism 9.1.1 (225)
 	
-	
 ## Setup
 * To run the paradigm, install [PsychoPy](https://www.psychopy.org/download.html) and download the `tasks` folder. 
 
@@ -76,8 +73,6 @@ $ pip install hddm
 For detailled instruction for hddm see [here](http://ski.clps.brown.edu/hddm_docs/)
 
 * To run the glmm analysis install [R](https://www.rstudio.com/products/rstudio/download/)
-
-
 
 ## References
 <a id="1">[1]</a> 
