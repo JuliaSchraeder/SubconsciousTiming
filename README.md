@@ -1,5 +1,13 @@
 # Timing evaluation for subconscious stimulus presentation
 
+[![DOI](https://img.shields.io/badge/DOI-10.31234/osf.io/mscz5-blue)](https://doi.org/10.31234/osf.io/mscz5)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Status: Open Access](https://img.shields.io/badge/Status-Open%20Access-brightgreen.svg)](DOI_LINK_HERE)
+
+
+---
+
+
 #### AUTHORS
 Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagels 1,2
 
@@ -7,27 +15,12 @@ Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagel
 * <sub><sup>2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany</sup></sub>
 * <sub><sup>3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea</sup></sub>
 
-## Table of contents
-* [General info](#general-info)
-	* [Authors](#authors) 
-	* [Publication](#preprint-DOI)
-	* [License](#license)
-* [Experimental design](#experimental-design)
-* [Folder descripion](#folder-description)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
-## General info
-This study is about the perception of healthy individuals of emotional stimuli presented at an unconscious level.
-On an 120Hz Screen, three drifferent timing options for unconscious presentation were elaborated (8.3ms, 16.7ms, 25ms) and compared to a conscious presentation time of 141.7ms. As stimuli, happy, neutral and sad faces taken from the FACE Database were used [[1]](#1).
+---
+## ✨ Abstract 
 
-#### Preprint DOI
-
-osf.io/mscz5
-
-#### License
-
-CC-By Attribution 4.0 International 
+To investigate subliminal priming effects, different durations for stimulus presentation are applied ranging from 8 to 30 ms. This study aims to select an optimal presentation span which leads to a subconscious processing. 
+40 healthy participants rated emotional faces (sad, neutral or happy expression) presented for 8.3 ms, 16.7 ms and 25 ms. Alongside subjective and objective stimulus awareness, task performance was estimated via hierarchical drift diffusion models. Participants reported stimulus awareness in 65 % of the 25 ms trials, in 36 % of 16.7 ms trials, and in 2.5 % of 8.3 ms trials. Emotion-dependent responses were reflected in decreased performance (drift rates, accuracy) during sad trials. The detection rate (probability of making a correct response) during 8.3 ms was 12.2 % and slightly above chance level (33.333 % for three response options) during 16.7 ms trials (36.8 %). The experiments suggest a presentation time of 16.7 ms as optimal for subconscious priming. An emotion-specific response was detected during 16.7 ms while the performance indicates a subconscious processing. 
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
