@@ -12,22 +12,24 @@ https://doi.org/10.1016/j.concog.2023.103493
 
 
 #### AUTHORS
-Julia Schräder 1,2, Ute Habel 1,2, Han-Gue Jo 3, Franziska Walter 1, Lisa Wagels 1,2
+Julia Schräder <sup>1,2</sup>, Ute Habel <sup>1,2</sup>, Han-Gue Jo <sup>3</sup>, Franziska Walter <sup>1</sup>, Lisa Wagels <sup>1,2</sup>
 
-* <sub><sup>1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany</sup></sub>
-* <sub><sup>2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany</sup></sub>
-* <sub><sup>3 School of Computer Information and Communication Engineering, Kunsan National University, Gun-san, Korea</sup></sub>
+
+<sub><sup>
+1 Department of Psychiatry, Psychotherapy and Psychosomatics, Medical Faculty, Uniklinik RWTH Aa-chen University, Pauwelstraße 30, 52074 Aachen, Germany <br> 
+2 Institute of Neuroscience and Medicine: JARA-Institute Brain Structure Function Relationship (INM 10), Research Center Jülich, Jülich, Germany <br> 
+3 School of Computer Information and Communication Engineering, Kunsan National University, Gunsan, Korea <br> 
 
 
 ---
 ## ✨ Abstract 
 
-To investigate subliminal priming effects, different durations for stimulus presentation are applied ranging from 8 to 30 ms. This study aims to select an optimal presentation span which leads to a subconscious processing. 
-40 healthy participants rated emotional faces (sad, neutral or happy expression) presented for 8.3 ms, 16.7 ms and 25 ms. Alongside subjective and objective stimulus awareness, task performance was estimated via hierarchical drift diffusion models. Participants reported stimulus awareness in 65 % of the 25 ms trials, in 36 % of 16.7 ms trials, and in 2.5 % of 8.3 ms trials. Emotion-dependent responses were reflected in decreased performance (drift rates, accuracy) during sad trials. The detection rate (probability of making a correct response) during 8.3 ms was 12.2 % and slightly above chance level (33.333 % for three response options) during 16.7 ms trials (36.8 %). The experiments suggest a presentation time of 16.7 ms as optimal for subconscious priming. An emotion-specific response was detected during 16.7 ms while the performance indicates a subconscious processing. 
+To investigate subliminal priming effects, different durations for stimulus presentation are applied ranging from 8 to 30 ms. This study aims to select an optimal presentation span which leads to a subconscious processing. 
+40 healthy participants rated emotional faces (sad, neutral or happy expression) presented for 8.3 ms, 16.7 ms and 25 ms. Alongside subjective and objective stimulus awareness, task performance was estimated via hierarchical drift diffusion models. Participants reported stimulus awareness in 65 % of the 25 ms trials, in 36 % of 16.7 ms trials, and in 2.5 % of 8.3 ms trials. Emotion-dependent responses were reflected in decreased performance (drift rates, accuracy) during sad trials. The detection rate (probability of making a correct response) during 8.3 ms was 12.2 % and slightly above chance level (33.333 % for three response options) during 16.7 ms trials (36.8 %). The experiments suggest a presentation time of 16.7 ms as optimal for subconscious priming. An emotion-specific response was detected during 16.7 ms while the performance indicates a subconscious processing. 
 
 ## Experimental design
 The participants completed 360 trials in 3 block where one short timing condition counterbalanced with the long timing condition appeared per block.
-This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigms were programmed with PsychoPy [[2]](#2) and can be found on this respiratory in the `tasks`folder.
+This paradigm leads to a 4x3 factorial design (4 timing conditions and 3 stimulus emotions) with 7 main effects (happy, neutral, sad, 8.3ms, 16.7ms, 25ms, 141.7ms) and 12 further conditions. The paradigms were programmed with PsychoPy [[2]](#2) and can be found on this respiratory in the `tasks` folder.
 
 For both tasks, we used a backward mask paradigm which provides conscious and unconscious masked stimulus presentation. 
 A total of 36 images (12 happy, 12 neutral, 12 sad) served as emotional stimuli. Pictures were gender balanced and taken from the FACES database (Ebner, Riediger, & Lindenberger, 2010). Each image was presented 10 times against a grey background at the center of a LCD monitor (120Hz).
@@ -80,3 +82,9 @@ Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, L
 	
 
 
+
+## 📑 Citation
+
+If you use or reference this repository, please cite:
+
+Schräder, J., Habel, U., Jo, H. G., Walter, F., & Wagels, L. (2023). Identifying the duration of emotional stimulus presentation for conscious versus subconscious perception via hierarchical drift diffusion models. Consciousness and Cognition, 110, 103493.
