@@ -1,8 +1,11 @@
 # Identifying the duration of emotional stimulus presentation for conscious versus subconscious perception via hierarchical drift diffusion models 
 
-[![DOI](https://img.shields.io/badge/DOI-10.31234/osf.io/mscz5-blue)](https://doi.org/10.31234/osf.io/mscz5)
+[![OSF DOI:](https://img.shields.io/badge/DOI-10.31234/osf.io/mscz5-blue)](https://doi.org/10.31234/osf.io/mscz5)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Open Access](https://img.shields.io/badge/Status-Open%20Access-brightgreen.svg)](DOI_LINK_HERE)
+
+
+https://doi.org/10.1016/j.concog.2023.103493
 
 
 ---
